@@ -4,11 +4,12 @@
 
 body {
     background-color: whitesmoke;
+    font-family: 'Helvetica';
 }
 
 /* Om os start */
 
-#banner1 {
+#banner {
     width: 100%;
     margin-bottom: 5em;
 }
@@ -26,7 +27,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5em;
-    font-family: 'Arial';
     font-size: 20px;
     text-align: left;
     width: 50%;
@@ -36,28 +36,36 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+#aarsrapport {
+    padding: 60px;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-item-left {
-  padding: 60px;
-  flex: 50%;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-middle {
+    padding: 10px;
+    flex: 50%;
 }
 
 .flex-item-right {
-  padding: 10px;
-  flex: 50%;
+    padding: 10px;
+    flex: 50%;
 }
 
 
@@ -69,7 +77,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Arial';
     font-size: 20px;
     text-align: center;
     width: 50%;
@@ -84,11 +91,15 @@ a:hover {
     color: crimson;
 }
 
+.ansat {
+    width: 100%;
+}
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
+    .flex-container {
+        flex-direction: column;
+    }
 }
 
 /* Om os slut */
