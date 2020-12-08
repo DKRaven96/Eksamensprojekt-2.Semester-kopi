@@ -2,6 +2,16 @@
  * file: css/style.css
  **/
 
+/* Vi bruger font-face til at finde fonten på computeren */
+@font-face {
+    font-family: "Dosis";
+    src: url(../);
+     font-family: " Allura";
+    src: url(..);
+}
+
+/* font slut*/  
+
 body {
     background-color: whitesmoke;
     font-family: 'Helvetica';
@@ -104,58 +114,7 @@ a:hover {
 
 /* Om os slut */
 
-/* landingpage*/
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
 
-header{
-    background: linear-gradient(rgba(0,0,100,05)),(rgba(0,0,100,05)),url(Landingpage.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-nav{
-    position: fixed;
-    width: 100%;
-    line-height: 60px;
-}
-nav ul{
-    float: right;
-    margin: 0;
-    padding-right: 42px;
-}
-nav ul li{
-    display: inline-block;
-    padding: 16px 32px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-}
-.logo{
-    height: 48px;
-    float: left;
-    margin: 16 px 48px;
-}
-#h1landing{
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 350px;
-}
-#h2landing{
-      font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    text-align: center;
 
-}
 
-/*landing page slut*/
+

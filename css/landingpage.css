@@ -1,0 +1,74 @@
+/**
+ * file: css/style.css
+ **/
+/* landingpage*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h2{
+  font-family: 'Allura', cursive; 
+    
+}
+header{
+    background-image:url(/images/Landingpage.png);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    top: 0;
+    background-color: rgba(255,255,255,.7);
+}
+nav ul{
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+    font-family: 'Dosis',sans-serif;
+   
+}
+nav ul li{
+    display: inline-block;
+    padding: 16px 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.logo{
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+#h1landing{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Dosis',sans-serif;
+    color: white;
+
+}
+#h2landing{
+      font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  
+
+}
+nav.black{
+    background: #fff;
+}
+/*landing page slut*/
