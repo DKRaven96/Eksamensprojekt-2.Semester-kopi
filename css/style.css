@@ -33,7 +33,6 @@ body {
 }
 
 #image1 {
-    flex: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
