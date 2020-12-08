@@ -6,15 +6,115 @@
 @font-face {
     font-family: "Dosis";
     src: url(../);
-     font-family: " Allura";
+    font-family: " Allura";
     src: url(..);
 }
 
-/* font slut*/  
+/* font slut*/
 
 body {
-    background-color: whitesmoke;
+    background-image: url(../images/bagground.jpg) opacityactive;
     font-family: 'Helvetica';
+}
+
+#header1 {
+    background-image: url(../images/cafeparasollen.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+#header2 {
+    background-image: url(../images/frivillige.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+#header3 {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+/* dropdown start */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .7);
+    min-width: 125px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover {
+    color: crimson;
+}
+
+/* dropdown slut */
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    top: 0;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.logo {
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
 }
 
 /* Om os start */
@@ -25,7 +125,7 @@ body {
 }
 
 #heading {
-    font-family: 'Allan';
+    font-family: 'Allura';
     font-size: 55px;
     color: #09565A;
     text-align: center;
@@ -51,7 +151,7 @@ body {
 }
 
 #aarsrapport {
-    padding: 60px;
+    padding: 55px;
 }
 
 * {
@@ -113,8 +213,3 @@ a:hover {
 }
 
 /* Om os slut */
-
-
-
-
-
