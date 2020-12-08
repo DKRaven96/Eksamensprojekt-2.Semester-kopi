@@ -52,3 +52,16 @@ nav ul li a{
 nav.black{
     background: #fff;
 }
+#findos{
+    text-align: center;
+}
+/* Mapbox*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
