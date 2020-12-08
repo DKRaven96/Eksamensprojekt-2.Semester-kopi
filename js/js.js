@@ -8,12 +8,21 @@ console.log('file: js/js.js loaded');
 // A $( document ).ready() block.
 $(document).ready(function () { // kører så snart DOM er klar
 
-    console.log("jQuery 3.5.1 running. Alert level green.");
+console.log("jQuery 3.5.1 running. Alert level green.");
 
 
-    }).catch(err => {
+}).catch(err => {
 
-        console.log('There was an error ...');
-    });
+console.log('There was an error ...');
+});
 
 }); // denne line må ikke slettes
+$
+(window).on("scroll", function () {
+if($(window).scrollTop()){
+    $('nav').addClass('black');
+}
+    else{
+        $('nav').removeClass('black');
+    }
+})
