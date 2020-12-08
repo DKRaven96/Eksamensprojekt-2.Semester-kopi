@@ -2,8 +2,8 @@
  * file: css/style.css
  **/
 
-<<<<<<< HEAD
 /* Vi bruger font-face til at finde fonten på computeren */
+
 @font-face {
     font-family: "Dosis";
     src: url(../);
@@ -13,8 +13,6 @@
 
 /* font slut*/
 
-=======
->>>>>>> main
 body {
     background-image: url(../images/bagground.jpg) opacityactive;
     font-family: 'Helvetica';
