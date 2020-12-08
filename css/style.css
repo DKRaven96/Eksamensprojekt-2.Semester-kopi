@@ -2,16 +2,6 @@
  * file: css/style.css
  **/
 
-/* Vi bruger font-face til at finde fonten på computeren */
-@font-face {
-    font-family: "Dosis";
-    src: url(../);
-     font-family: " Allura";
-    src: url(..);
-}
-
-/* font slut*/  
-
 body {
     background-color: whitesmoke;
     font-family: 'Helvetica';
