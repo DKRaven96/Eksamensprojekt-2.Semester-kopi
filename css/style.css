@@ -6,6 +6,13 @@ body {
     background-color: whitesmoke;
 }
 
+/* Om os start */
+
+#banner1 {
+    width: 100%;
+    margin-bottom: 5em;
+}
+
 #heading {
     font-family: 'Allan';
     font-size: 55px;
@@ -30,25 +37,33 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5em;
-    margin-bottom: 2em;
-    width: 50%;
+    width: 100%;
 }
 
-#left {
-    width: 30%;
-    float: left;
-    padding: 3em;
-    margin-left: 8em;
+* {
+  box-sizing: border-box;
 }
 
-#left a:hover {
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 60px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+
+.flex-item-left a:hover {
     opacity: 60%;
-}
-
-#right {
-    width: 50%;
-    float: right;
 }
 
 .image-text {
@@ -57,7 +72,7 @@ body {
     margin-right: auto;
     font-family: 'Arial';
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     width: 50%;
 }
 
@@ -69,3 +84,12 @@ a {
 a:hover {
     color: crimson;
 }
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+/* Om os slut */
