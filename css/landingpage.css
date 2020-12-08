@@ -71,11 +71,44 @@ nav ul li a{
 nav.black{
     background: #fff;
 }
-#mødengest{
+
+
+/* Page design */
+
+.page-design {
+    background-image: url(/images/bagground.jpg);
+    width: 100%;
+    /*  Vh = View Height. It's like % but instead of parent, it's a % of the window height.  */
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+body  {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+h2 {
     font-size: 55px;
     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
     color: #09565A;
-    margin-top: 100px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+.title {
+    padding-bottom: 80px;
+}
     
 }
 .tekst{ 
@@ -86,5 +119,21 @@ nav.black{
     font-size: 20px;
     text-align: center;
     width: 50%;
+}
+.interview-picture img {
+    width: 40%;
+    height: auto;
+    display:flex;
+    flex-direction:row;
+}
+.interview-picture .audio-button {
+    position: absolute;
+    width: 15%;
+    left: 25px;
+    bottom: 10px;
+    cursor: pointer;
+}
+backgroundPicture1 {
+    background-image: url();
 }
 /*landing page slut*/

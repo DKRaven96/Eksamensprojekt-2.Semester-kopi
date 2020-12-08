@@ -27,7 +27,7 @@ if($(window).scrollTop()){
     }
 })
 
-// mapbox
+/** mapbox**/
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubnltYWUiLCJhIjoiY2tmcWtlbGNtMGJ0NTJ3bzB2ODM2NWl3biJ9.OoNBfHTXEtINPw6pee5DVg';
 var map = new mapboxgl.Map({
@@ -36,3 +36,30 @@ var map = new mapboxgl.Map({
     center: [56.129,10.166], // starting position [lng, lat]
     zoom: 15 // starting zoom
 });
+
+  /**
+    * Audio controls (again, find method to do it in ONE function rather than 2)
+    **/
+    var $audioIconPhilip = $("#audioIconPhilip");
+    var audioPhilip = $("#audioPhilip").get(0); /* get(0) henter den følgende funktion i JavaScript, frem for i JQuery */
+    
+    $audioIconPhilip.on('click', function () {
+        if (audioPhilip.paused) {
+            audioPhilip.play();
+        }
+        else {
+            audioPhilip.pause();
+        }
+    });
+    
+    var $audioIconVeyis = $("#audioIconVeyis");
+    var audioVeyis = $("#audioVeyis").get(0); /* get(0) henter den følgende funktion i JavaScript, frem for i JQuery */
+    
+    $audioIconVeyis.on('click', function () {
+        if (audioVeyis.paused) {
+            audioVeyis.play();
+        }
+        else {
+            audioVeyis.pause();
+        }
+    });
