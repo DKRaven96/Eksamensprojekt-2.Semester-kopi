@@ -21,7 +21,7 @@ body {
     margin-bottom: 5em;
     font-family: 'Arial';
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     width: 50%;
 }
 
@@ -57,7 +57,7 @@ body {
     margin-right: auto;
     font-family: 'Arial';
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     width: 50%;
 }
 
