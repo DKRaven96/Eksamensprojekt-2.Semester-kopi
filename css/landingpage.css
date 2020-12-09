@@ -150,4 +150,10 @@ p {
     background-position: center;
     background-attachment: fixed;
 }
+
+/** Café Parasollen youtube video **/
+.youtube{
+   background-image: url(/images/bagground.jpg);
+    width: 100%;  
+}
 /*landing page slut*/
