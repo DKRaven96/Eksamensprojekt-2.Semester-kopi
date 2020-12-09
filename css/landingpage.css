@@ -133,7 +133,8 @@ p {
     bottom: 10px;
     cursor: pointer;
 }
-backgroundPicture1 {
+.backgroundPicture1 {
     background-image: url();
 }
+
 /*landing page slut*/
