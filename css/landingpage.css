@@ -133,8 +133,21 @@ p {
     bottom: 10px;
     cursor: pointer;
 }
-.backgroundPicture1 {
-    background-image: url();
+/**backgroundPicture stylesheet **/
+
+#backgroundPicture1 {
+    background-image: url(/images/parallax1-1.png);
+
 }
 
+#backgroundPicture2 {
+    background-image: url(/images/parallax2.png);
+
+}
+
+.fixed-background {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 /*landing page slut*/
