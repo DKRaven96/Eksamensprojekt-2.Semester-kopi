@@ -152,8 +152,20 @@ p {
 }
 
 /** Café Parasollen youtube video **/
-.youtube{
+#youtube{
    background-image: url(/images/bagground.jpg);
-    width: 100%;  
+  
+}
+.sevideo{
+    font-family:'Dosis',sans-serif;
+    color: #09565A;
+    text-align: center;
+}
+/** Pristlist **/
+.prislist{
+}
+
+#img prislist{
+    height: 100px;
 }
 /*landing page slut*/
