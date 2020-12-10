@@ -203,7 +203,48 @@ a:hover {
 }
 
 .ansat {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 5em;
+}
+
+.sponsor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 5em;
+}
+
+#sponsor-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: grey;
+    padding: 2em;
+    width: 40%;
+}
+
+#button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #09565A;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    width: 20%;
+    padding: 2em;
+    margin-top: 3em;
+    margin-bottom: 5em;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -214,28 +255,28 @@ a:hover {
 }
 
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
-    align-items:flex-start;
+    align-items: flex-start;
     background-color: #D4C3B3;
     color: white;
     height: 300px;
 }
 
-#footerContent{
+#footerContent {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-    
-#footerSome{
+
+#footerSome {
     display: flex;
-    flex-direction:row;
-   align-items: center;
-    
+    flex-direction: row;
+    align-items: center;
+
 }
 
-    
-    
+
+
 /* Om os slut */
