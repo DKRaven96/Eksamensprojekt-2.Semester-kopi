@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    background-color: #D4C3B3;
+    color: white;
+    height: 300px;
+}
+
+#footerContent{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+    
+#footerSome{
+    display: flex;
+    flex-direction:row;
+   align-items: center;
+    
+}
