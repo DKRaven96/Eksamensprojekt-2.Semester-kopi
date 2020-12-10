@@ -6,13 +6,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-h2{
-  font-family: 'Allura', cursive; 
+    background-image: url(/images/bagground.jpg);
     
 }
-header{
-    background-image:url(/images/Landingpage.png);
+
+h2 {
+    font-family: 'Allura', cursive;
+
+}
+
+header {
+    background-image: url(/images/Landingpage.png);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -21,54 +25,62 @@ header{
     align-items: center;
     flex-direction: column;
 }
-nav{
+
+nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
     top: 0;
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255, 255, 255, .7);
 }
-nav ul{
+
+nav ul {
     float: right;
     margin: 0;
     padding-right: 42px;
-    font-family: 'Dosis',sans-serif;
-   
+    font-family: 'Dosis', sans-serif;
+
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     padding: 16px 32px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
 }
-.logo{
+
+.logo {
     height: 48px;
     float: left;
     margin: 16px 48px;
 }
-#h1landing{
+
+#h1landing {
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Dosis',sans-serif;
+    font-family: 'Dosis', sans-serif;
     color: white;
 
 }
-#h2landing{
-      font-size: 48px;
+
+#h2landing {
+    font-size: 48px;
     letter-spacing: 2px;
     font-weight: bold;
     text-align: center;
     color: white;
-  
+
 
 }
-nav.black{
+
+nav.black {
     background: #fff;
 }
 
@@ -76,10 +88,9 @@ nav.black{
 /* Page design */
 
 .page-design {
-    background-image: url(/images/bagground.jpg);
     width: 100%;
     /*  Vh = View Height. It's like % but instead of parent, it's a % of the window height.  */
-    min-height: 100vh; 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,9 +99,6 @@ nav.black{
     justify-content: center;
 }
 
-body  {
-    font-family: 'Baloo Tammudu 2', cursive;
-}
 
 h2 {
     font-size: 55px;
@@ -103,29 +111,30 @@ h2 {
 p {
     font-size: 20px;
     line-height: 30px;
-    
+
 }
 
-.title {
-    padding-bottom: 80px;
-}
-    
-}
-.tekst{ 
+
+.tekst {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5em;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     width: 50%;
 }
-.interview-picture img {
-    width: 40%;
-    height: auto;
-    display:flex;
-    flex-direction:row;
+
+.interview-picture {
+    position: relative;
 }
+
+.interview-picture img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
 .interview-picture .audio-button {
     position: absolute;
     width: 15%;
@@ -133,7 +142,26 @@ p {
     bottom: 10px;
     cursor: pointer;
 }
-<<<<<<< Updated upstream
+
+#quotesContent {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.quotes-and-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 40%;
+
+}
+
+.quotes-and-pic q {
+    margin-top: 20px;
+}
+
 /**backgroundPicture stylesheet **/
 
 #backgroundPicture1 {
@@ -153,25 +181,30 @@ p {
 }
 
 /** Café Parasollen youtube video **/
-#youtube{
-   background-image: url(/images/bagground.jpg);
-  
+#youtubeVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
 }
-.sevideo{
-    font-family:'Dosis',sans-serif;
+
+.sevideo {
+    font-family: 'Dosis', sans-serif;
     color: #09565A;
     text-align: center;
 }
-/** Pristlist **/
-.prislist{
-}
 
-#img prislist{
+/** Pristlist **/
+.prislist {}
+
+#img prislist {
     height: 100px;
 =======
     background-image: url();
 >>>>>>> Stashed changes
 }
+
 
 footer{
     display: flex;
