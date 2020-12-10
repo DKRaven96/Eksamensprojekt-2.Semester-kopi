@@ -223,9 +223,19 @@ footer{
     height: 300px;
 }
 
-#footerlogo{
-    height: 20px;
+#footerContent{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
     
+    #footerSome{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
     
 }
+
+    
+    
 /* Om os slut */
