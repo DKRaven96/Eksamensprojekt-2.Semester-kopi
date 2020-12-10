@@ -32,7 +32,7 @@ if($(window).scrollTop()){
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubnltYWUiLCJhIjoiY2tmcWtlbGNtMGJ0NTJ3bzB2ODM2NWl3biJ9.OoNBfHTXEtINPw6pee5DVg';
 var map = new mapboxgl.Map({
     container: 'map', // container id
-    style: 'mapbox://styles/jennymae/ckigd63ci3tya19rwibl293gy', // style URL
+    style: 'mapbox://styles/jennymae/ckijeabhc01mm17nqpevb7wna', // style URL
     center: [56.129,10.166], // starting position [lng, lat]
     zoom: 15 // starting zoom
 });

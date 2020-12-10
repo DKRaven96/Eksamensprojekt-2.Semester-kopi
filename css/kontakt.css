@@ -52,11 +52,35 @@ nav ul li a{
 }
 nav.black{
     background: #fff;
+    
 }
+
+
+#kontaktOs{
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #09565A;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+p {
+    font-family: 'Dosis',sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+  }  
+
+
+/* Mapbox*/
+
 #findos{
     text-align: center;
+     font-family: 'dosis',sans-serif;
+    color: #A81B06;
+    font-size: 48px;
 }
-/* Mapbox*/
 body {
     margin: 0;
     padding: 0;
