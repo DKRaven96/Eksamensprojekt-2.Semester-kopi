@@ -200,15 +200,80 @@ p {
 #smørbørd{
    width: 50%;
     display: flex;
-    justify-content: flex-end;
-    
-  
+    justify-content: flex-end; 
 }
 
+#kontactButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #A81B06;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    width: 20%;
+    padding: 2em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    font-family: 'Dosis', sans-serif;
+}
 
+/** Bliv frivllig**/
 
+#frivilligPic{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    width: 50%;
+}
 
+p {
+    font-family: 'Dosis',sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
 
+#blivfrivilligButton{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #A81B06;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    width: 20%;
+    padding: 2em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    font-family: 'Dosis', sans-serif;
+} 
+
+/** Seneste nyt **/
+
+/** Åbningstider **/
+
+#åbningsTider{
+    font-family: 'dosis',sans-serif;
+    color: #A81B06;
+    font-size: 48px;
+}
+
+/** Find os her **/
+
+#findOs{
+     font-family: 'dosis',sans-serif;
+    color: #A81B06;
+    font-size: 48px;
+}
 /** footer**/
 footer{
     display: flex;
@@ -242,6 +307,7 @@ footer{
 #someText{
     width: 300px;
     text-align: center;
+    
     
 }
 
