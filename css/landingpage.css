@@ -127,6 +127,8 @@ p {
 
 .interview-picture {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .interview-picture img {
@@ -272,6 +274,7 @@ p {
     color: #A81B06;
     font-size: 48px;
 }
+
 /** footer**/
 footer{
     display: flex;
