@@ -277,12 +277,23 @@ p {
 
 /** Find os her **/
 
-#findOs{
+/* Mapbox*/
+
+#findos{
+    text-align: center;
      font-family: 'dosis',sans-serif;
     color: #A81B06;
     font-size: 48px;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 
+#map {
+    width: 100%;
+    height: 500px;
+}
 /** footer**/
 footer{
     display: flex;
