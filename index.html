@@ -9,8 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/landingpage.css">
-    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
     <title>Cafe Parasollen - Om Café Parasollen</title>
@@ -22,10 +23,10 @@
             <img class="logo" src="images/logo.png" a href="index.html">
             <div class="menu">
                 <ul>
-                    <li><a href="#">Om Café Parasollen</a></li>
-                    <li><a href="#">Aktivitet</a></li>
-                    <li><a href="#">Bliv Frivillig</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="omos.html">Om Café Parasollen</a></li>
+                    <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                    <li><a href="/blivfrivillig.html">Bliv Frivillig</a></li>
+                    <li><a href="kontakt.html">Kontakt os</a></li>
 
 
                 </ul>
@@ -42,7 +43,8 @@
         <section class="page-design" id="quotes">
             <h2 class="title">Mød en gæst</h2>
             <p class="tekst">Besøg Café Parasollen og bliv mødt af andre mennesker</p>
-
+             
+            <div id="imgPoloroid">
             <div id="quotesContent">
                 <div class="quotes-and-pic">
                     <div class="interview-picture counter-clockwise">
@@ -59,22 +61,26 @@
                         <source src="audio/Philip.mp3" type="audio/mp3" />
                     </audio>
                 </div>
-                </div> 
-                
-                <div id="quotesContent">
-                    <div class="quotes-and-pic">
-                        <div class="interview-picture counter-clockwise">
-                            <img src="/images/Veyis.png" alt="picture, philip interview" />
-                            <img id="audioIconPhilip" class="audio-button" src="images/lydikon.png" alt="lyd ikon" />
-                        </div>
+            </div>
 
-                        <q id="veyisQuote">Vi bekymrer os for hinanden</q>
-                        <cite>
-                            -Veyis, 39år
-                        </cite>
-
+            <div id="quotesContent">
+                <div class="quotes-and-pic">
+                    <div class="interview-picture counter-clockwise">
+                        <img src="/images/Veyis.png" alt="picture, philip interview" />
+                        <img id="audioIconPhilip" class="audio-button" src="images/lydikon.png" alt="lyd ikon" />
                     </div>
-            </div> 
+
+                    <q id="veyisQuote">Vi bekymrer os for hinanden</q>
+                    <cite>
+                        -Veyis, 39år
+                    </cite>
+                    
+                     <audio id="audioVeyis">
+                        <source src="audio/Veyis.mp3" type="audio/mp3" />
+                    </audio>
+                </div>
+            </div>
+            </div>
         </section>
 
         <section id="backgroundPicture1" class="page-design fixed-background"></section>
@@ -83,6 +89,7 @@
             <h1 class="sevideo">Se video om hverdagen i Café Parasollen</h1>
             <iframe id="youtube" width="750" height="500" alt="Café Parasollen, gæster,Viby j,social,samvære," src="https://www.youtube.com//embed/5oJj0EtMgnU">
             </iframe>
+            <p>Café Parasollen er en social cafe - et værested - for mennesker med forskellige udfordringer i livet. Det er også en arbejdsplads for mange mennesker, som ønsker at være med til at tage et ansvar - både for sig selv - og for det arbejde, der foregår til gavn for andre.</p>
         </div>
 
         <section id="backgroundPicture2" class="page-design fixed-background"></section>
@@ -90,8 +97,36 @@
         <div class="prislist">
             <h2>Prisliste</h2>
             <p>Her kan du se, hvad det koster at spise på Café Parasollen.</p>
+            <button id="kontactButton" type="submit">Prislist</button>
+
             <img id="smørbørd" src="/images/Sm%C3%B8rrebr%C3%B8d.png" alt="mad,smørrbrød,Café Parasollen, social café,prislist">
         </div>
+
+        <div class="blivFrivillig">
+            <h2>Bliv friviillig i Café Parasollen</h2>
+            <img id="frivilligPic" src="images/blivfrivillig.png" alt="Café Parasollen,Frivillig, Social café, udsatte borger">
+            <p>Der er cirka 40 forskellige frivillige, som i hold af 4-5 timers vagter løser dagens opgaver, det være sig madlavning, bagning, fremstilling af smørebrød, rengøring og ikke mindst samvær og samtale med gæsterne.</p>
+
+            <button id="blivfrivilligButton" type="submit" a href="blivfrivillig.html">Bliv frivillig</button>
+        </div>
+
+        <div>
+            <h2 id="åbningsTider">Åbningstider</h2>
+            <p>Mandag kl. 9.30-21.30</p>
+            <p>Tirsdag  kl. 9.30-15.30</p>
+            <p>Onsdag kl. 9.30-15.30</p>
+            <p>Torsdag kl. 9.30-15.30</p>
+            <p>Fredag  kl. 9.30-15.30</p>
+            <p>Lørdag lukket</p>
+            <p>Søndag kl. 11.30-15.00</p>
+        </div>
+        
+        
+        <h2 id="findOs">Find os her</h2>
+        <div id="map"></div>
+     
+s
+
     </main>
 
 
@@ -137,7 +172,5 @@
 <!-- load jQuery library -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-<!-- load JavaScript -->
-<script src="js/js.js"></script>
-
-</html>
+ <!-- load JavaScript -->
+    <script type="text/javascript" src="js/js.js"></script>
