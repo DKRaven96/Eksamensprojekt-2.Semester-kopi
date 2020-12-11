@@ -29,7 +29,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamVubnltYWUiLCJhIjoiY2tmcWtlbGNtMGJ0NTJ3bzB2O
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/jennymae/ckijeabhc01mm17nqpevb7wna', // style URL
-    center: [10.165449, 56.129019], // starting position [lng, lat]
+    center: [10.165448, 56.129044], // starting position [lng, lat]
     zoom: 15 // starting zoom
 });
 
