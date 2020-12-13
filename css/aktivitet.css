@@ -2,7 +2,6 @@
 /**
  * file: css/style.css
  **/
-/* landingpage*/
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +9,7 @@ body {
     background-image: url(/images/bagground.jpg);
 
 }
+
 #header4 {
     background-image: url(../images/aktivitetpage.png);
     background-size: cover;
@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     margin-bottom: 5em;
 }
+
 .dropdown {
     position: relative;
     display: flex;
@@ -93,44 +94,109 @@ nav ul li a {
     margin: 18px 48px;
 }
 
+/* Aktiviteter */
+#aktivitetPage {
+    font-family: 'Allura';
+    font-size: 55px;
+    color: #09565A;
+    text-align: center;
+    margin-bottom: 1em;
+}
 
+.text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    font-size: 20px;
+    text-align: left;
+    width: 50%;
+    font-family: 'Helvetica';
+}
 
+#aktivitetImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 1em;
+}
 
+#ugensAktiviter{
+    font-family: 'Allura';
+    font-size: 55px;
+    color: #09565A;
+    text-align: center;
+    margin-bottom: 1em;
+}
 
-footer{
+/*backgroundPicture stylesheet */
+
+#backgroundPicture3{
+    background-image: url(/images/backgroundcover.png);
+
+}
+.fixed-background {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Sol strålen */
+
+#solStrålen{
+    font-family: 'Allura';
+    font-size: 55px;
+    color: #09565A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+#solStrålenimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 1em; 
+}
+
+/* Footer*/
+footer {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     background-color: #D4C3B3;
     color: white;
-    height: 300px;   
+    height: 300px;
 }
 
-#footerLogo{
+#footerLogo {
     height: 100px;
 }
-#footerTekst 
-#tekstCafe{
+
+#footerTekst #tekstCafe {
     margin-bottom: 10px;
-    
-}
-.some{
-    width: 50px;
-    
-    
+
 }
 
-#footerSome{
+.some {
+    width: 50px;
+
+
+}
+
+#footerSome {
     display: flex;
     flex-direction: column;
-   align-items: center;
-    
+    align-items: center;
+
 }
-#facebookText{
+
+#facebookText {
     width: 300px;
     text-align: center;
-    
+
 }
-#footerTekst p{
+
+#footerTekst p {
     margin: 0;
 }
