@@ -176,7 +176,9 @@ footer {
     align-items: center;
     background-color: #D4C3B3;
     color: white;
-    height: 300px;
+    height: 200px;
+    padding: 2em;
+    font-weight: bold;
 }
 
 #footerLogo {
@@ -190,8 +192,7 @@ footer {
 
 .some {
     width: 50px;
-
-
+    margin: 5px;
 }
 
 #footerSome {
