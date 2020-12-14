@@ -37,7 +37,7 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 79.5%;
     background-color: rgba(255, 255, 255, .7);
     width: 140px;
     z-index: 1;
@@ -49,14 +49,20 @@ header {
     font-size: 18px;
     display: block;
     padding: 15px;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.dropdown:hover {
-    color: crimson;
+.dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown a:hover {
+    color: #A81B06;
 }
 
 /* dropdown slut */
@@ -89,6 +95,10 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #A81B06;
 }
 
 .logo {

@@ -79,7 +79,7 @@ main {
 }
 
 .dropdown:hover {
-    color: crimson;
+    color: #A81B06;
 }
 
 /* dropdown slut */
@@ -112,6 +112,10 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #A81B06;
 }
 
 .logo {
