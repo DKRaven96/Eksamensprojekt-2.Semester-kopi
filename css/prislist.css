@@ -5,5 +5,25 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(/images/bagground50.jpg);
+}
+/* Kryds button*/
+#kryds{
+    width: 40px;
+    align-items: flex-end;
+}
+h2 {
+    font-family: 'Allura', cursive;
 
+}
+#prislistCp{
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #09565A;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#prisListimg{
+    align-items: center;
 }
