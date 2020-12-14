@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Helvetica';
-    background-image: url(/images/bagground.jpg)
+    background-image: url(/images/bagground50.jpg)
 }
 
 h2 {
@@ -62,7 +62,7 @@ nav.black {
     background: #fff;
 
 }
-
+/* Kontakt os starter her */
 #kontaktOs {
     font-size: 55px;
     text-align: center;
