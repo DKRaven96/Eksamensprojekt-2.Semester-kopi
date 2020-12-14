@@ -5,9 +5,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Helvetica';
     background-image: url(/images/bagground.jpg);
-    
+
 
 }
 
@@ -88,6 +88,7 @@ nav.black {
 
 /* Page design */
 
+
 .page-design {
     width: 100%;
     /*  Vh = View Height. It's like % but instead of parent, it's a % of the window height.  */
@@ -107,6 +108,7 @@ h2 {
     padding-bottom: 10px;
     padding-top: 10px;
     color: #09565A;
+    font-family: 'Allura';
 }
 
 p {
@@ -121,9 +123,10 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5em;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     width: 50%;
+    margin-top: 3em;
 }
 
 #imgPoloroid {
@@ -200,16 +203,29 @@ p {
 }
 
 .sevideo {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Allura';
     color: #09565A;
     text-align: center;
     margin-bottom: 80px;
+    font-size: 55px;
 }
 
 /** Pristlist **/
 
 #prislist {
-    align-items: 
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+#prislistleft {
+    flex: 50%;
+    padding: 10px;
+}
+
+#smørbrødleft {
+    flex: 50%;
+    padding: 10px;
 }
 
 #kontactButton {
@@ -219,39 +235,34 @@ p {
     background-color: #A81B06;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     border: none;
-    border-radius: 25px;
-    width: 20%;
-    padding: 2em;
-    margin-top: 3em;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    margin-top: 2em;
     margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
 }
 
 #smørbrød {
-    width: 50%;
-    display: flex;
-    align-items: flex-start;
+    max-width: 100%;
+    margin-top: 2em;
+
 }
+
 
 /** Bliv frivllig**/
 
 #frivilligPic {
-   display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     margin-bottom: 1em;
 }
 
-p {
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
-    font-size: 30px;
-
-}
 
 #blivfrivilligButton {
     display: block;
@@ -260,23 +271,29 @@ p {
     background-color: #A81B06;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     border: none;
-    border-radius: 25px;
-    width: 20%;
-    padding: 2em;
-    margin-top: 3em;
+    border-radius: 10px;
+    width: 15%;
+    padding: 10px;
+    margin-top: 2em;
     margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
 }
 
 /** Åbningstider **/
 
-#åbningsTider {
+#åbningsTiderheader {
     font-family: 'dosis', sans-serif;
     color: #A81B06;
     font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#åbningstiderTekst {
+    text-align: center;
 }
 
 /** Find os her **/
@@ -286,6 +303,8 @@ p {
     font-family: 'dosis', sans-serif;
     color: #A81B06;
     font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 body {
