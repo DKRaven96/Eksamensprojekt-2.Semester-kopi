@@ -101,6 +101,7 @@ nav.black {
     background: #fff;
 
 }
+
 /* Kontakt os starter her */
 #kontaktOs {
     font-size: 55px;
@@ -128,6 +129,7 @@ p {
     width: 50%;
     margin-top: 3em;
 }
+
 /* Mapbox*/
 
 #findos {
@@ -143,6 +145,48 @@ body {
 }
 
 #map {
-   width: 100%;
+    width: 100%;
     height: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D4C3B3;
+    color: white;
+    height: 200px;
+    padding: 2em;
+    font-weight: bold;
+}
+
+#footerLogo {
+    height: 100px;
+}
+
+#footerTekst #tekstCafe {
+    margin-bottom: 10px;
+
+}
+
+.some {
+    width: 50px;
+    margin: 5px;
+}
+
+#footerSome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#facebookText {
+    width: 300px;
+    text-align: center;
+
+}
+
+#footerTekst p {
+    margin: 0;
 }
