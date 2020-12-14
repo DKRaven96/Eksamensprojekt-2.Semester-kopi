@@ -32,7 +32,7 @@ body {
 }
 
 #header3 {
-    background-image: url(../images/banner.png);
+    background-image: url(../images/partnerskab.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -193,6 +193,10 @@ nav ul li a:hover {
     width: 85%;
 }
 
+#aarsrapport:hover {
+   opacity: 0.6; 
+}
+
 * {
     box-sizing: border-box;
 }
@@ -215,11 +219,6 @@ nav ul li a:hover {
 .flex-item-right {
     padding: 10px;
     flex: 50%;
-}
-
-
-.flex-item-left a:hover {
-    opacity: 60%;
 }
 
 .image-text {
@@ -256,6 +255,10 @@ a:hover {
     margin-bottom: 5em;
 }
 
+.sponsor:hover {
+    opacity: 0.8;
+}
+
 #sponsor-text {
     display: block;
     margin-left: auto;
@@ -264,7 +267,7 @@ a:hover {
     text-align: center;
     border-style: solid;
     border-color: grey;
-    padding: 28px;
+    padding: 25px;
     width: 38%;
 }
 
@@ -273,8 +276,6 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     background-color: #09565A;
-    text-decoration: none;
-    color: white;
     font-size: 20px;
     font-weight: bold;
     border: none;
@@ -283,6 +284,15 @@ a:hover {
     padding: 15px;
     margin-top: 2em;
     margin-bottom: 3em;
+}
+
+#button:hover {
+    opacity: 0.8;
+}
+
+#button a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -521,6 +531,10 @@ footer {
 .some {
     width: 50px;
     margin: 5px;
+}
+
+.some:hover {
+    opacity: 0.6;
 }
 
 #footerSome {

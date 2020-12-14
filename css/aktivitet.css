@@ -196,6 +196,10 @@ footer {
     margin: 5px;
 }
 
+.some:hover {
+    opacity: 0.6;
+}
+
 #footerSome {
     display: flex;
     flex-direction: column;
