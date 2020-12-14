@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url(/images/bagground.jpg);
+    background-image: url(/images/bagground50.jpg);
 
 }
 
@@ -167,7 +167,9 @@ footer {
     align-items: center;
     background-color: #D4C3B3;
     color: white;
-    height: 300px;
+    height: 200px;
+    padding: 2em;
+    font-weight: bold;
 }
 
 #footerLogo {
@@ -181,8 +183,7 @@ footer {
 
 .some {
     width: 50px;
-
-
+    margin: 5px;
 }
 
 #footerSome {
