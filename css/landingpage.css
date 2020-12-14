@@ -252,8 +252,7 @@ p {
 /** Pristlist **/
 
 #prislist {
-    align-items:
-        display: flex;
+    display: flex;
     flex-direction: row;
     padding: 100px;
 }
@@ -361,28 +360,25 @@ body {
 /** footer**/
 footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    text-align: center;
     background-color: #D4C3B3;
     color: white;
-    height: 200px;
-    padding: 2em;
-    font-weight: bold;
+    height: 300px;
 }
 
-#footerLogo {
-    height: 100px;
+
+#footerContent {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
-#footerTekst #tekstCafe {
-    margin-bottom: 10px;
-
+#some {
+    width: 80px;
+    height: 50px;
 }
 
-.some {
-    width: 50px;
-    margin: 5px;
-}
 
 #footerSome {
     display: flex;
@@ -391,14 +387,11 @@ footer {
 
 }
 
-#facebookText {
+#someText {
     width: 300px;
     text-align: center;
 
-}
 
-#footerTekst p {
-    margin: 0;
 }
 
 /*landing page slut*/
