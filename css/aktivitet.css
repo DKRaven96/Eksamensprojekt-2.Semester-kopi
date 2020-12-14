@@ -66,6 +66,14 @@ nav {
     background-color: rgba(255, 255, 255, .7);
 }
 
+nav {
+    position: fixed;
+    width: 100%;
+    height: 92px;
+    top: 0;
+    background-color: rgba(255, 255, 255, .7);
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -122,7 +130,7 @@ nav ul li a {
     margin-bottom: 1em;
 }
 
-#ugensAktiviter{
+#ugensAktiviter {
     font-family: 'Allura';
     font-size: 55px;
     color: #09565A;
@@ -132,10 +140,11 @@ nav ul li a {
 
 /*backgroundPicture stylesheet */
 
-#backgroundPicture3{
+#backgroundPicture3 {
     background-image: url(/images/backgroundcover.png);
 
 }
+
 .fixed-background {
     background-size: cover;
     background-position: center;
@@ -144,19 +153,20 @@ nav ul li a {
 
 /* Sol strålen */
 
-#solStrålen{
+#solStrålen {
     font-family: 'Allura';
     font-size: 55px;
     color: #09565A;
     text-align: center;
     margin-bottom: 1em;
 }
-#solStrålenimg{
+
+#solStrålenimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-bottom: 1em; 
+    margin-bottom: 1em;
 }
 
 /* Footer*/

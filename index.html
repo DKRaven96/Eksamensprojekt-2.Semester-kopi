@@ -21,18 +21,20 @@
     <header>
         <nav>
             <a href="index.html"><img class="logo" src="images/logo.png"></a>
-            <div class="menu">
-                <ul>
-                    <li><a href="omos.html">Om Café Parasollen</a></li>
-                    <li><a href="aktiviteter.html">Aktiviteter</a></li>
-                    <li><a href="/blivfrivillig.html">Bliv Frivillig</a></li>
-                    <li><a href="kontakt.html">Kontakt os</a></li>
 
+            <ul>
+                <div class="dropdown">
+                    <a href="omos.html">Om Café Parasollen</a>
+                    <div class="dropdown-content">
+                        <a href="voresteam.html">Vores team</a>
+                        <a href="partnerskab.html">Partnerskab</a>
+                    </div>
+                </div>
 
-                </ul>
-
-            </div>
-
+                <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                <li><a href="#">Bliv Frivillig</a></li>
+                <li><a href="kontakt.html">Kontakt os</a></li>
+            </ul>
         </nav>
 
         <h1 id="h1landing"> Café Parasollen</h1>
@@ -43,43 +45,43 @@
         <section class="page-design" id="quotes">
             <h2 class="title">Mød en gæst</h2>
             <p class="tekst">Besøg Café Parasollen og bliv mødt af andre mennesker</p>
-             
+
             <div id="imgPoloroid">
-            <div id="quotesContent">
-                <div class="quotes-and-pic">
-                    <div class="interview-picture counter-clockwise">
-                        <img src="/images/Philip.png" alt="picture, philip interview" />
-                        <img id="audioIconPhilip" class="audio-button" src="images/lydikon.png" alt="lyd ikon" />
+                <div id="quotesContent">
+                    <div class="quotes-and-pic">
+                        <div class="interview-picture counter-clockwise">
+                            <img src="/images/Philip.png" alt="picture, philip interview" />
+                            <img id="audioIconPhilip" class="audio-button" src="images/lydikon.png" alt="lyd ikon" />
+                        </div>
+
+                        <q>Café Parasollen er et frirum</q>
+                        <cite>
+                            -Philip, 44år
+                        </cite>
+
+                        <audio id="audioPhilip">
+                            <source src="audio/Philip.mp3" type="audio/mp3" />
+                        </audio>
                     </div>
-
-                    <q>Café Parasollen er et frirum</q>
-                    <cite>
-                        -Philip, 44år
-                    </cite>
-
-                    <audio id="audioPhilip">
-                        <source src="audio/Philip.mp3" type="audio/mp3" />
-                    </audio>
                 </div>
-            </div>
 
-            <div id="quotesContent">
-                <div class="quotes-and-pic">
-                    <div class="interview-picture counter-clockwise">
-                        <img src="/images/Veyis.png" alt="picture, philip interview" />
-                        <img id="audioIconPhilip" class="audio-button" src="images/lydikon.png" alt="lyd ikon" />
+                <div id="quotesContent">
+                    <div class="quotes-and-pic">
+                        <div class="interview-picture counter-clockwise">
+                            <img src="/images/Veyis.png" alt="picture, philip interview" />
+                            <img id="audioIconPhilip" class="audio-button" src="images/lydikon.png" alt="lyd ikon" />
+                        </div>
+
+                        <q id="veyisQuote">Vi bekymrer os for hinanden</q>
+                        <cite>
+                            -Veyis, 39år
+                        </cite>
+
+                        <audio id="audioVeyis">
+                            <source src="audio/Veyis.mp3" type="audio/mp3" />
+                        </audio>
                     </div>
-
-                    <q id="veyisQuote">Vi bekymrer os for hinanden</q>
-                    <cite>
-                        -Veyis, 39år
-                    </cite>
-                    
-                     <audio id="audioVeyis">
-                        <source src="audio/Veyis.mp3" type="audio/mp3" />
-                    </audio>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -96,13 +98,13 @@
 
         <div class="prislist">
             <div id="prislistleft">
-            <h2>Prisliste</h2>
-            <p>Her kan du se, hvad det koster at spise på Café Parasollen.</p>
-            <button id="kontactButton" type="submit">Prislist</button>
+                <h2>Prisliste</h2>
+                <p>Her kan du se, hvad det koster at spise på Café Parasollen.</p>
+                <button id="kontactButton" type="submit">Prislist</button>
             </div>
-            
+
             <div id="smørbrødleft">
-            <img id="smørbrød" src="/images/Sm%C3%B8rrebr%C3%B8d.png" alt="mad,smørrbrød,Café Parasollen, social café,prislist">
+                <img id="smørbrød" src="/images/Sm%C3%B8rrebr%C3%B8d.png" alt="mad,smørrbrød,Café Parasollen, social café,prislist">
             </div>
         </div>
 
@@ -117,14 +119,14 @@
         <div>
             <h2 id="åbningsTider">Åbningstider</h2>
             <p>Mandag kl. 9.30-21.30</p>
-            <p>Tirsdag  kl. 9.30-15.30</p>
+            <p>Tirsdag kl. 9.30-15.30</p>
             <p>Onsdag kl. 9.30-15.30</p>
             <p>Torsdag kl. 9.30-15.30</p>
-            <p>Fredag  kl. 9.30-15.30</p>
+            <p>Fredag kl. 9.30-15.30</p>
             <p>Lørdag lukket</p>
             <p>Søndag kl. 11.30-15.00</p>
         </div>
-        
+
         <h2 id="findos">Find os her</h2>
         <div id="map"></div>
 
@@ -134,11 +136,11 @@
 </body>
 
 <footer>
-    
+
 </footer>
 
 <!-- load jQuery library -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
- <!-- load JavaScript -->
-    <script type="text/javascript" src="js/js.js"></script>
+<!-- load JavaScript -->
+<script type="text/javascript" src="js/js.js"></script>
