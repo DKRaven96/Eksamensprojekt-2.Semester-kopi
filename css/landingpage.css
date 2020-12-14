@@ -253,7 +253,7 @@ p {
 
 #prislist {
     align-items:
-    display: flex;
+    display;flex;
     flex-direction: row;
     padding: 100px;
 }
