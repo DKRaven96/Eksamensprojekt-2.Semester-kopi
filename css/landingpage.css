@@ -282,11 +282,15 @@ h2 {
     margin-top: 2em;
     margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
-
 }
-##kontactButton a{
+
+#kontactButton a {
     text-decoration: none;
     color: white;
+}
+
+#kontactButton:hover {
+    opacity: 0.6;
 }
 
 #smørbrød {
@@ -323,6 +327,15 @@ h2 {
     margin-top: 2em;
     margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
+}
+
+#blivfrivilligButton a {
+    text-decoration: none;
+    color: white;
+}
+
+#blivfrivilligButton:hover {
+    opacity: 0.6;
 }
 
 /** Åbningstider **/
