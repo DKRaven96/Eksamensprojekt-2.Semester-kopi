@@ -92,6 +92,10 @@ nav {
     background-color: rgba(255, 255, 255, .7);
 }
 
+nav .current {
+    color: #A81B06;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -194,7 +198,7 @@ nav ul li a:hover {
 }
 
 #aarsrapport:hover {
-   opacity: 0.6; 
+    opacity: 0.6;
 }
 
 * {
@@ -271,28 +275,25 @@ a:hover {
     width: 38%;
 }
 
-#button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+button {
     background-color: #09565A;
+    color: white;
+    text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    width: 15%;
     padding: 15px;
-    margin-top: 2em;
-    margin-bottom: 3em;
 }
 
-#button:hover {
+button:hover {
     opacity: 0.8;
 }
 
-#button a {
-    text-decoration: none;
-    color: white;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */

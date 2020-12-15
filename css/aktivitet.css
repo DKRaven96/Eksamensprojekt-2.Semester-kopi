@@ -71,6 +71,10 @@ nav {
     background-color: rgba(255, 255, 255, .7);
 }
 
+nav .current {
+    color: #A81B06;
+}
+
 nav ul {
     display: flex;
     align-items: center;
