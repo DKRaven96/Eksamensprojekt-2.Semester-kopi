@@ -164,14 +164,23 @@ h2 {
 
 }
 
-#flex-container{
-     display: flex;
+.flex-container {
+    display: flex;
     flex-direction: row;
 }
 
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
 
-=======
->>>>>>> main
+
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+}
+
+
 #frivilligImg1{
   display: flex;
  justify-content: space-around; 
@@ -180,7 +189,7 @@ h2 {
 
 .img-poloroid1 {
 
-    width: 30%; 
+    width: 50%; 
     margin-top: 100px; 
 
 }
@@ -213,54 +222,48 @@ button:hover {
     opacity: 0.8;
 }
 
+
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer {
+footer{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     background-color: #D4C3B3;
     color: white;
-    height: 200px;
-    padding: 2em;
-    font-weight: bold;
+    height: 300px;   
 }
 
-#footerLogo {
+#footerLogo{
     height: 100px;
 }
-
-#footerTekst #tekstCafe {
+#footerTekst 
+#tekstCafe{
     margin-bottom: 10px;
-
+    
 }
-
-.some {
+.some{
     width: 50px;
-    margin: 5px;
+    
+    
 }
 
-.some:hover {
-    opacity: 0.6;
-}
-
-#footerSome {
+#footerSome{
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+   align-items: center;
+    
 }
-
-#facebookText {
+#facebookText{
     width: 300px;
     text-align: center;
-
+    
 }
-
-#footerTekst p {
+#footerTekst p{
     margin: 0;
 }
