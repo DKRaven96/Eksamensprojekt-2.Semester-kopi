@@ -217,12 +217,12 @@ h2 {
 /**backgroundPicture stylesheet **/
 
 #backgroundPicture1 {
-    background-image: url(/images/parallax1-1.png);
+    background-image: url(/images/parallax1color.png);
 
 }
 
 #backgroundPicture2 {
-    background-image: url(/images/parallax2.png);
+    background-image: url(/images/parallax2color.png);
 
 }
 
