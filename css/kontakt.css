@@ -15,7 +15,7 @@ h2 {
 }
 
 header {
-    background-image: url(/images/kontakt.png);
+    background-image: url(/images/kontaktcolor.png);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -73,6 +73,8 @@ nav {
     height: 92px;
     top: 0;
     background-color: rgba(255, 255, 255, .7);
+    z-index: 1;
+    /* z-index z-indeksegenskaben i CSS styrer den lodrette stabelrækkefølge af elementer, der overlapper hinanden. Som i, hvilken der ser ud som om den er fysisk tættere på dig.*/
 }
 
 nav .current {
