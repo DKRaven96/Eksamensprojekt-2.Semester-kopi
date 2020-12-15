@@ -10,7 +10,7 @@ body {
 }
 
 #header4 {
-    background-image: url(../images/aktivitetpage.png);
+    background-image: url(/images/aktivitetcolorimg.png);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -153,7 +153,19 @@ nav ul li a:hover {
     margin-right: auto;
    
 }
+/*backgroundPicture stylesheet */
+#aktivetetMad {
+    background-image: url(/images/aktivitetmadcolor.png);
 
+}
+
+.fixed-background {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*  */
 #flex-container {
     display: flex;
     flex-direction: row;
