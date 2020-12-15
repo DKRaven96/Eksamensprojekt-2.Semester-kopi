@@ -177,6 +177,7 @@ nav ul li a:hover {
 
 /* Hide the images by default */
 .mySlides {
+    display: none;
 }
 
 /* Next & previous buttons */
