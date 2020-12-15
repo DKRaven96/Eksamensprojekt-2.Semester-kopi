@@ -15,7 +15,7 @@ h2 {
 }
 
 header {
-    background-image: url(/images/Landingpage.png);
+    background-image: url(/images/landingpagecolor.png);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -125,6 +125,7 @@ nav ul li a:hover {
     font-weight: bold;
     text-align: center;
     color: white;
+    margin-top: 5px;
 
 }
 
