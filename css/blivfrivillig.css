@@ -156,6 +156,19 @@ h2 {
 
 }
 
+#frivilligImg1{
+  display: flex;
+ justify-content: space-around; 
+    
+}
+
+.img-poloroid1 {
+
+    width: 30%; 
+    margin-top: 100px; 
+
+}
+
 #paralaxfrivillig{
    background-image: url(/images/blivfrivilligparallax.png) 
     
