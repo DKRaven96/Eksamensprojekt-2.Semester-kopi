@@ -11,7 +11,10 @@ body {
     width: 40px;
     float: right;
     padding: 50px;
-    padding-bottom: px;
+   position: absolute; /*man hiver elementet ud af flowet så det flyder så man kan placer med top 0 og right 0*/
+    top:0;
+    right: 0; 
+    
   
 }
 h2 {
