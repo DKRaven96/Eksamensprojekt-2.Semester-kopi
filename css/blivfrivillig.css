@@ -149,6 +149,28 @@ h2 {
 
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+.img-poloroid {
+
+    width: 30%; 
+    margin-top: 100px; 
+
+}
+
+#flex-container{
+     display: flex;
+    flex-direction: row;
+}
+
+
+=======
+>>>>>>> main
+#frivilligImg1{
+  display: flex;
+ justify-content: space-around; 
+    
+=======
 #frivilligImg1 {
     display: flex;
     justify-content: space-around;
@@ -160,6 +182,7 @@ h2 {
     width: 30%;
     margin-top: 100px;
 
+>>>>>>> main
 }
 
 .img-poloroid1 {
