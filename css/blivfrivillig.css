@@ -143,9 +143,15 @@ h2 {
     width: 50%;
 }
 
-#imgPoloroid {
-    display: flex;
-    width: 50%; 
+#frivilligImg{
+  display: flex;
+ justify-content: space-around; 
+    
+}
+
+.img-poloroid {
+
+    width: 30%; 
     margin-top: 100px; 
 
 }
