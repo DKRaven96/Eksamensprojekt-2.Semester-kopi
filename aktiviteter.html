@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/aktivitet.css">
+    <link>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,7 +38,7 @@
         </nav>
     </header>
     <main>
-        <h2 id="aktivitetPage">Aktiviteter</h2>
+        <h2 class="heading">Aktiviteter</h2>
         <div class="text">
             <p>I café Parasollen er der mange aktiviteter.
                 Man kan altid få en snak om alt der rører sig.
@@ -47,7 +48,7 @@
         <img id="aktivitetImg" src="/images/aktivetetimg.png">
 
 
-        <h2 id="ugensAktiviter">Ugens aktiviteter</h2>
+        <h2 class="heading">Ugens aktiviteter</h2>
 
         <iframe id="googleKalender" src="https://calendar.google.com/calendar/embed?src=jennymaemaglaqueberces%40gmail.com&ctz=Europe%2FCopenhagen" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
@@ -57,28 +58,45 @@
 
         <section id="backgroundPicture3" class="page-design fixed-background"></section>
 
-        <h2 id="solStrålen">Solstrålen</h2>
+        <h2 class="heading">Solstrålen</h2>
         <div class="text">
             <p>Solstrålen er et aktivitetstilbud i Viby Sognegårds kælder.
                 Vi har åbent tirsdag
                 fra kl. 10.00-13.00 og torsdag fra kl. 10.00-13.00.</p>
         </div>
         <img id="solStrålenimg" src="/images/aktivitet2.png">
-        <p class="text">
 
-            Solstrålen er:
+        <div class="text">
+            <p>Solstrålen er:</p>
+            <p>Et sted for mennesker hvis liv kan være præget af psykiske vanskeligheder, ensomhed eller andet svært i livet.</p>
+            <p>Et sted for dig, som har lyst til samvær i et mindre fællesskab.</p>
+            <p>Et aktivt sted med f.eks. kreative aktiviteter, samtale, sang og musik, kaffedrikning, gåture og aktiviteter ud af huset.</p>
+            <p>Er der, hvor hver enkelt er velkommen med ideer og bidrag til fællesskabet og aktiviteterne.</p>
+            <p>Er der hvor vi hører fortællinger, synger eller snakker om livet i stort og småt.</p>
+        </div>
 
-            Et sted for mennesker hvis liv kan være præget af psykiske vanskeligheder, ensomhed eller andet svært i livet.
+        <h2 class="heading">Vores menu</h2>
 
-            Et sted for dig, som har lyst til samvær i et mindre fællesskab.
+        <div class="slideshow-container">
 
-            Et aktivt sted med f.eks. kreative aktiviteter, samtale, sang og musik, kaffedrikning, gåture og aktiviteter ud af huset.
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class="slide-image" src="images/Uge51.png">
+            </div>
 
-            Er der, hvor hver enkelt er velkommen med ideer og bidrag til fællesskabet og aktiviteterne.
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
 
-            Er der hvor vi hører fortællinger, synger eller snakker om livet i stort og småt. .
-        </p>
-
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
 
     </main>
 
