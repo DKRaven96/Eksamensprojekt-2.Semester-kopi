@@ -189,22 +189,27 @@ h2 {
 }
 
 
-#værmedButton {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+button {
     background-color: #A81B06;
-    text-decoration: none;
     color: white;
-    font-size: 16px;
+    text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    width: 30%;
-    padding: 10px;
+    padding: 15px;
     margin-top: 2em;
-    margin-bottom: 5em;
-    font-family: 'Dosis', sans-serif;
+    margin-bottom: 2em;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
