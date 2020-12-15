@@ -119,12 +119,21 @@ nav.black {
 }
 
 /* Kontakt os starter her */
-#kontaktOs {
+#headerkontakt1 {
+    font-family: 'Allura';
     font-size: 55px;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
     color: #09565A;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#headerkontakt2 {
+    font-family: 'Allura';
+    font-size: 55px;
+    color: #09565A;
+    text-align: center;
+    margin-bottom: 100px;
     margin-top: 100px;
 }
 
@@ -137,6 +146,7 @@ nav.black {
     width: 50%;
     margin-top: 3em;
 }
+
 
 /* Mapbox*/
 
