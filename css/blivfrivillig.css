@@ -76,10 +76,6 @@ nav {
     background-color: rgba(255, 255, 255, .7);
 }
 
-nav .current {
-    color: #A81B06;
-}
-
 nav ul {
     display: flex;
     align-items: center;
@@ -121,8 +117,8 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     justify-content: center;
 }
 
@@ -142,17 +138,27 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5em;
     font-size: 22px;
     text-align: center;
     width: 50%;
-    margin-top: 10px;
 }
 
 #imgPoloroid {
     display: flex;
-    width: 20px;
+    flex-direction: column;
+    width: 50%; 
+    margin-top: 100px; 
 
+}
+
+#paralaxfrivillig{
+   background-image: url(/images/blivfrivilligparallax.png) 
+    
+}
+.fixed-background {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
