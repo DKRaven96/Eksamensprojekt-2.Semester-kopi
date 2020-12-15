@@ -143,29 +143,36 @@ h2 {
     width: 50%;
 }
 
-#frivilligImg{
-  display: flex;
- justify-content: space-around; 
-    
+#frivilligImg {
+    display: flex;
+    justify-content: space-around;
+
 }
 
-#frivilligImg1{
-  display: flex;
- justify-content: space-around; 
-    
+#frivilligImg1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img-poloroid {
+
+    width: 30%;
+    margin-top: 100px;
+
 }
 
 .img-poloroid1 {
 
-    width: 30%; 
-    margin-top: 100px; 
+    width: 30%;
+    margin-top: 100px;
 
 }
 
-#paralaxfrivillig{
-   background-image: url(/images/blivfrivilligparallax.png) 
-    
+#paralaxfrivillig {
+    background-image: url(/images/blivfrivilligparallax.png)
 }
+
 .fixed-background {
     background-size: cover;
     background-position: center;
