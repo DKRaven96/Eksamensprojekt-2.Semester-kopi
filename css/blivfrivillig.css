@@ -149,6 +149,7 @@ h2 {
     
 }
 
+<<<<<<< HEAD
 .img-poloroid {
 
     width: 30%; 
@@ -162,6 +163,8 @@ h2 {
 }
 
 
+=======
+>>>>>>> main
 #frivilligImg1{
   display: flex;
  justify-content: space-around; 
