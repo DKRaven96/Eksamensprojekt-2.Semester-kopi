@@ -135,6 +135,8 @@ nav ul li a:hover {
     margin-bottom: 1em;
 }
 
+/* Ugens aktivitet*/
+
 #ugensAktiviter {
     font-family: 'Allura';
     font-size: 55px;
@@ -142,16 +144,33 @@ nav ul li a:hover {
     text-align: center;
     margin-bottom: 1em;
 }
+
 /* Google kalender*/
-#googleKalender{
-     display: block;
+#googleKalender {
+    display: block;
     margin-left: auto;
     margin-right: auto;
+   
 }
 
+#flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#flex-item-left{
+    padding: 10px;
+    flex: 50%;
+    
+    
+}
+#flex-item-right{
+     padding: 25px;
+    flex: 50%;
+}
 /*backgroundPicture stylesheet */
 
-#backgroundPicture3{
+#backgroundPicture3 {
     background-image: url(/images/backgroundcover.png);
 
 }
