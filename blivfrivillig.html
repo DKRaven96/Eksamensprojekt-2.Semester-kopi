@@ -18,6 +18,7 @@
 
 <body>
     <header id="header5">
+        <!--    Her loades vue     -->
         <nav>
             <a href="index.html"><img class="logo" src="images/logo.png"></a>
 
@@ -94,18 +95,42 @@
 
                     Udfyld skemaet nedenfor for en uforpligtende samtale.
                     Vi glæder os til at se dig i caféen. </p>
-<div class="center">
-                <button id="værmedButton" type="submit">Vær med </button>
+                <div class="center">
+                    <button id="værmedButton" type="submit">Vær med </button>
 
+                </div>
             </div>
-            </div>
+        </div>
 
 
+    </main>
+    <div id="popUpWrapper">
+        <div id="popUpBackground">
+            <div>
+                <div id="popUpContent">
+                    <form class="form-container" id="myForm">
+                        <button type="submit" id="close"></button>
+                        <h2>Login</h2>
+                        <p>
+                            Husk at du skal aktivere din konto inden du
+                            kan logge på
+                        </p>
 
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" name="email" required />
                 <div class="flex-item-left">
                     <div id="frivilligImg1">
 
+                        <label for="psw"><b>Adgangskode</b></label>
+                        <input type="password" name="psw" required />
+                        <a href="#" id="glemtKode">Nyt eller glemt kodeord?</a>
 
+                        <a href="profil.html" class="btn">Log ind</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
                         <img class="img-poloroid1" src="images/frivillig3.png">
 
                     </div>
@@ -144,4 +169,6 @@
     </footer>
 
     <script type="text/javascript" src=""></script>
-</body></html>
+</body>
+
+</html>

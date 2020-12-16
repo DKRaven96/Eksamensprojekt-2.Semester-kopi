@@ -226,6 +226,17 @@ nav ul li a:hover {
     margin-right: auto;
    
 }
+.page-design {
+    width: 100%;
+    /*  Vh = View Height. It's like % but instead of parent, it's a % of the window height.  */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
 /*backgroundPicture stylesheet */
 #aktivetetMad {
     background-image: url(/images/aktivitetmadcolor.png);
