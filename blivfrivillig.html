@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
     <title>Cafe Parasollen - Bliv frivillig</title>
 </head>
 
@@ -51,31 +52,31 @@
 
 
         <p class="tekst"> I Café Parasollen arbejder der ca. 40 forskellige frivillige, som i hold af 4-5 timers vagter løser dagens opgaver
-            <p class="tekst"> Det kan være madlavning, bagning, fremstilling af smørrebrød, rengøring og ikke mindst samvær og samtale med gæsterne.</p>
+        <p class="tekst"> Det kan være madlavning, bagning, fremstilling af smørrebrød, rengøring og ikke mindst samvær og samtale med gæsterne.</p>
 
 
-            <div id="frivilligImg">
+        <div id="frivilligImg">
 
-                <img class="img-poloroid" src="images/Frivillig1.png">
-                <img class="img-poloroid" src="images/Frivillig2.png">
+            <img class="img-poloroid" src="images/Frivillig1.png">
+            <img class="img-poloroid" src="images/Frivillig2.png">
 
-            </div>
+        </div>
 
-            <h2> Hvad er frivilligt arbejde? </h2>
+        <h2> Hvad er frivilligt arbejde? </h2>
 
-            <p class="tekst"> Det er at tage en praktisk tørn et par timer om ugen
-                Det er at få mere igen, end man giver ud
-                Det er at være en del af et godt fællesskab
-                Det er at møde en masse dejlige mennesker, som man ellers ikke ville have mødt
-                Det er at gøre en forskel for nogle mennesker, for hvem livet ikke er så enkelt
-                Opgaverne kan være:
+        <p class="tekst"> Det er at tage en praktisk tørn et par timer om ugen
+            Det er at få mere igen, end man giver ud
+            Det er at være en del af et godt fællesskab
+            Det er at møde en masse dejlige mennesker, som man ellers ikke ville have mødt
+            Det er at gøre en forskel for nogle mennesker, for hvem livet ikke er så enkelt
+            Opgaverne kan være:
 
 
-            </p>
+        </p>
 
-            <section id="paralaxfrivillig" class="page-design fixed-background"></section>
+        <section id="paralaxfrivillig" class="page-design fixed-background"></section>
 
-            <div class="flex-container">
+        <div class="flex-container">
 
 
             <div class="flex-item-left">
@@ -87,11 +88,11 @@
 
             <div class="flex-item-right">
 
-                    <h2>Vil du være frivillig?</h2>
+                <h2>Vil du være frivillig?</h2>
 
-                    <p class="tekst">Om du har få eller mange timer at give, om det er hverdag eller weekend,
-                        formiddag eller eftermiddag er ikke det vigtigste.</p>
-                    <p class="tekst">Det er derimod din lyst til at gøre en frivillig indsats, hvor du får meget igen.
+                <p class="tekst">Om du har få eller mange timer at give, om det er hverdag eller weekend,
+                    formiddag eller eftermiddag er ikke det vigtigste.</p>
+                <p class="tekst">Det er derimod din lyst til at gøre en frivillig indsats, hvor du får meget igen.
 
                     Udfyld skemaet nedenfor for en uforpligtende samtale.
                     Vi glæder os til at se dig i caféen. </p>
@@ -101,47 +102,51 @@
                 </div>
             </div>
         </div>
+        <div id="popUpWrapper">
+            <div id="popUpBackground">
+                <div>
+                    <div id="popUpContent">
+                        <form class="form-container" id="myForm">
+                            <button type="submit" id="close"></button>
+                            <h2 id="h2blivFrivillig">Bliv frivillig</h2>
+
+                            <label for="navn"><b>Navn</b></label>
+                            <input type="text" required />
+                            <!-- Input er boksen man skriver i label og er tag som er typen af data-->
+
+                            <label for="alder"><b>Alder</b></label>
+                            <input type="text" required />
+
+                            <label for="adresse"><b>Adresse</b></label>
+                            <input type="text" required />
+
+                            <label for="tlf"><b>Telefonnummer</b></label>
+                            <input type="text" required />
+
+                            <label for="Email"><b>Email</b></label>
+                            <input type="text" required />
+
+                            <label for="bds">Beskriv dig selv</label>
+                            <textarea id="beskrivDig"></textarea>
+                            
+                            <div>
+                            <input type="checkbox" required />
+                            <label for=""><b>Jeg tillader hermed , mine informationer må
+                                    videregives Internt til Café Parasollen. </b></label>
+                           </div>
 
 
-    </main>
-    <div id="popUpWrapper">
-        <div id="popUpBackground">
-            <div>
-                <div id="popUpContent">
-                    <form class="form-container" id="myForm">
-                        <button type="submit" id="close"></button>
-                        <h2>Login</h2>
-                        <p>
-                            Husk at du skal aktivere din konto inden du
-                            kan logge på
-                        </p>
 
-                        <label for="email"><b>Email</b></label>
-                        <input type="text" name="email" required />
-                <div class="flex-item-left">
-                    <div id="frivilligImg1">
 
-                        <label for="psw"><b>Adgangskode</b></label>
-                        <input type="password" name="psw" required />
-                        <a href="#" id="glemtKode">Nyt eller glemt kodeord?</a>
-
-                        <a href="profil.html" class="btn">Log ind</a>
-                    </form>
+                            <button id="tilmeldButton" href="#">Tilmeld</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-                        <img class="img-poloroid1" src="images/frivillig3.png">
-
-                    </div>
-                </div>
-
-
-
-            </div>
-
 
     </main>
+
     <footer>
         <div id="footerTekst">
 
@@ -168,7 +173,7 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src="js/logind.js"></script>
 </body>
 
 </html>

@@ -183,7 +183,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     text-align: center;
     width: 50%;
 }
@@ -296,26 +296,6 @@ button:hover {
     position: relative;
 }
 
-#popUpActions {
-    background-color: #16293e;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    padding: 10px 0;
-}
-
-#logInd {
-    background-color: #ec9335;
-    padding: 8px 20px;
-    color: white;
-    border: none;
-    margin-left: 10px;
-    font-size: 16px;
-    font-family: "Montserrat";
-}
 
 #menuLogIn {
     border: none;
@@ -325,19 +305,25 @@ button:hover {
 }
 
 #close {
-    background-image: url(../images/close.png);
+    background-image: url(/images/kryds.png);
     background-size: contain;
     height: 20px;
     width: 20px;
     border: none;
     background-color: white;
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 0px;
+    top: 0px;
+    margin: 30px;
 }
 
 /***********************************************
 ***************** pop-up forms styling ***************/
+#h2blivFrivillig {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
 
     {
     box-sizing: border-box;
@@ -351,26 +337,35 @@ button:hover {
 
 /* Add styles to the form container */
 .form-container {
-    max-width: 300px;
+    max-width: 400px;
     padding: 10px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 /* Full-width input fields */
 .form-container input[type="text"],
 .form-container input[type="password"] {
     width: 100%;
-    padding: 15px;
-    border: none;
-    background: #f1f1f1;
+    padding: 5px;
+    border-color: #09565A;
+    box-sizing: border-box;
+
+}
+
+#beskrivDig{
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box; /*box-sizing gør at browseren uderegner størelsen af elementet inklusiv padding og border*/
+     border-color: #09565A;
+    font-family: 'Helvetica';
 }
 
 .form-container label {
-    margin-top: 22px;
+    margin-top: 10px;
     margin-bottom: 5px;
+    font-size: 15px; 
 }
 
 #popUpContent p {
@@ -386,28 +381,15 @@ button:hover {
 }
 
 /* Set a style for the submit/login button */
-.btn {
-    background-color: #4caf50;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 40%;
-    text-align: center;
-    margin-bottom: 10px;
-    opacity: 0.8;
-    text-decoration: none;
+#tilmeldButton {
+    padding: 5px;
+    width: 100px;
+    margin: 0 auto; /*ingen margin i top og bund, autom margin til venstre og højre den gør at den placer sig i midten*/
+    margin-top: 20px;
+
+
 }
 
-#glemtKode {
-    text-decoration: none;
-    color: #ec9335;
-    font-size: 10px;
-    text-align: end;
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-}
 
 /* Add some hover effects to buttons */
 .form-container .btn:hover,
@@ -415,10 +397,6 @@ button:hover {
     opacity: 1;
 }
 
-h2 {
-    margin-bottom: 50px;
-    text-align: center;
-}
 
 footer {
     display: flex;
