@@ -10,7 +10,7 @@ body {
 }
 
 #header4 {
-    background-image: url(../images/aktivitetpagecolor.png);
+    background-image: url(/images/aktivitetcolorimg.png);
     background-size: cover;
     background-position: center;
     height: 90vh;
