@@ -71,7 +71,7 @@ main {
     text-align: center;
     font-size: 18px;
     display: block;
-    padding: 15px;
+    padding: 20px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -79,6 +79,46 @@ main {
 }
 
 .dropdown:hover {
+    color: #A81B06;
+}
+
+/* Drop down til aktiviteter */
+.dropdown2 {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 18px;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    width: 140px;
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    padding: 20px;
+    color: black;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown2 a:hover {
     color: #A81B06;
 }
 
@@ -90,6 +130,7 @@ nav {
     height: 92px;
     top: 0;
     background-color: rgba(255, 255, 255, .7);
+    z-index: 1;
 }
 
 nav .current {
@@ -179,6 +220,16 @@ nav ul li a:hover {
     font-size: 22px;
     text-align: left;
     width: 53%;
+}
+
+#rapport-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    font-size: 22px;
+    text-align: left;
+    width: 85%;
 }
 
 #image1 {
@@ -279,6 +330,7 @@ button {
     background-color: #09565A;
     color: white;
     text-decoration: none;
+    font-family: 'Dosis', sans-serif;
     font-size: 20px;
     font-weight: bold;
     border: none;

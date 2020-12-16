@@ -49,7 +49,7 @@ h2 {
     text-align: center;
     font-size: 18px;
     display: block;
-    padding: 15px;
+    padding: 20px;
     color: black;
 }
 
@@ -66,6 +66,46 @@ h2 {
     color: #A81B06;
 }
 
+/* Drop down til aktiviteter */
+.dropdown2 {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 18px;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    width: 140px;
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    padding: 20px;
+    color: black;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown2 a:hover {
+    color: #A81B06;
+}
+
 /* dropdown slut */
 
 nav {
@@ -74,6 +114,10 @@ nav {
     height: 92px;
     top: 0;
     background-color: rgba(255, 255, 255, .7);
+}
+
+nav .current {
+    color: #A81B06;
 }
 
 nav ul {
@@ -139,56 +183,51 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     font-size: 22px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     text-align: center;
     width: 50%;
 }
 
-#pTekst{
-    
-    
-}
+#pTekst {}
 
 
-#frivilligImg{
-  display: flex;
- justify-content: space-around; 
-    
+#frivilligImg {
+    display: flex;
+    justify-content: space-around;
+
 }
 
 
 .img-poloroid {
 
-    width: 30%; 
-    margin-top: 100px; 
+    width: 30%;
+    margin-top: 100px;
 
 }
 
-#flex-container{
-     display: flex;
+#flex-container {
+    display: flex;
     flex-direction: row;
 }
 
 
-=======
->>>>>>> main
-#frivilligImg1{
-  display: flex;
- justify-content: space-around; 
-    
+#frivilligImg1 {
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .img-poloroid1 {
 
-    width: 30%; 
-    margin-top: 100px; 
+    width: 30%;
+    margin-top: 100px;
 
 }
 
-#paralaxfrivillig{
-   background-image: url(/images/blivfrivilligparallax.png) 
-    
+#paralaxfrivillig {
+    background-image: url(/images/blivfrivilligparallaxcolor.png)
 }
+
 .fixed-background {
     background-size: cover;
     background-position: center;
