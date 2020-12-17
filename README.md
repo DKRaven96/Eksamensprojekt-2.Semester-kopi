@@ -3,7 +3,7 @@
 ![logo.png](images/logo.png)
 
 Her har vi kodet en digital løsning til Café Parasollen.
-Url til hjemmeside: [www.cafeparasollen.dk](https://cafeparasollen.netlify.app/kontakt.html)
+Url til hjemmeside: [www.cafeparasollen.dk](https://cafeparasollen.netlify.app/index.html)
 
 
 Denne repository indeholder:
