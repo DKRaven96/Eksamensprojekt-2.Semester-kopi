@@ -238,7 +238,7 @@ h2 {
     cursor: pointer;
 }
 
-#quotesContent {
+.quotesContent {
     display: flex;
     justify-content: space-around;
 

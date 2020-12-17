@@ -176,7 +176,7 @@ nav ul li a:hover {
     margin-bottom: 5em;
 }
 
-#heading {
+.heading {
     font-family: 'Allura';
     font-size: 55px;
     color: #09565A;
