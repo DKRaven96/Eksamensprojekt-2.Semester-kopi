@@ -4,11 +4,13 @@
 
 Her har vi kodet en digital løsning til Café Parasollen.
 
+
 Denne repository indeholder:
 * HTML:5 til forside og undersider
 * CSS styling til hver HTML:5
 * Javascript og JQuery
 * Images og audio
+
 
 Her er et eksempel på kode:
 
@@ -22,3 +24,5 @@ var map = new mapboxgl.Map({
     zoom: 15 // starting zoom
 });
  ~~~
+
+Eksemplet viser opsætningen på mapbox i Javascript-filen, der på hjemmesiden viser lokationen på Café Parasollen.
