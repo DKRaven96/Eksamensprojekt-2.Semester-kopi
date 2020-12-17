@@ -29,7 +29,8 @@ header {
     position: relative;
     display: flex;
     height: 100%;
-    padding: 32px; /* Padding er indefor objekt*/
+    padding: 32px;
+    /* Padding er indefor objekt*/
     align-items: center;
     font-size: 18px;
 }
@@ -64,6 +65,47 @@ header {
 .dropdown a:hover {
     color: #A81B06;
 }
+
+/* Drop down til aktiviteter */
+.dropdown2 {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 18px;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    width: 140px;
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    padding: 20px;
+    color: black;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown2 a:hover {
+    color: #A81B06;
+}
+
 
 /* dropdown slut */
 
@@ -104,8 +146,9 @@ nav ul li a:hover {
 
 .logo {
     height: 70px;
-    float: left; 
-    margin: 18px 48px; /* margin er udenfor object */
+    float: left;
+    margin: 18px 48px;
+    /* margin er udenfor object */
 }
 
 
