@@ -176,6 +176,15 @@ h2 {
     font-family: 'Allura';
 }
 
+#frivillig-header {
+    font-size: 55px;
+    text-align: center;
+    padding-top: 10px;
+    color: #09565A;
+    font-family: 'Allura';
+    margin-top: 80px;
+}
+
 
 .tekst {
     display: block;
@@ -257,7 +266,7 @@ h2 {
 }
 
 
-#værmedButton {
+Button {
     background-color: #A81B06;
     color: white;
     text-decoration: none;
@@ -269,10 +278,9 @@ h2 {
     margin-bottom: 2em;
 }
 
-#værmedButton:hover {
+Button:hover {
     opacity: 0.8;
 }
-
 
 
 .center {
@@ -417,7 +425,9 @@ footer {
     align-items: center;
     background-color: #D4C3B3;
     color: white;
-    height: 300px;
+    height: 200px;
+    padding: 2em;
+    font-weight: bold;
 }
 
 #footerLogo {
@@ -431,8 +441,11 @@ footer {
 
 .some {
     width: 50px;
+    margin: 5px;
+}
 
-
+.some:hover {
+    opacity: 0.6;
 }
 
 #footerSome {

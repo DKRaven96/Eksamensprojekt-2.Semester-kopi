@@ -196,9 +196,9 @@ nav ul li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
     font-size: 22px;
-    text-align: left;
+    text-align: center;
     width: 50%;
 }
 
@@ -208,7 +208,7 @@ nav ul li a:hover {
     margin-right: auto;
     margin-bottom: 5em;
     font-size: 22px;
-    text-align: left;
+    text-align: center;
     width: 85%;
 }
 
@@ -218,7 +218,7 @@ nav ul li a:hover {
     margin-right: auto;
     margin-bottom: 5em;
     font-size: 22px;
-    text-align: left;
+    text-align: center;
     width: 53%;
 }
 
@@ -228,8 +228,18 @@ nav ul li a:hover {
     margin-right: auto;
     margin-bottom: 3em;
     font-size: 22px;
-    text-align: left;
+    text-align: center;
     width: 85%;
+}
+
+#partnerskab-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    font-size: 22px;
+    text-align: center;
+    width: 75%;
 }
 
 #image1 {

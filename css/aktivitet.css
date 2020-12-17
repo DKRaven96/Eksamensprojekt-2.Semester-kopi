@@ -168,16 +168,17 @@ nav ul li a:hover {
     color: #09565A;
     text-align: center;
     margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 .text {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     font-size: 20px;
-    text-align: left;
-    width: 50%;
+    text-align: center;
+    width: 52%;
     font-family: 'Helvetica';
 }
 
@@ -224,6 +225,7 @@ nav ul li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
    
 }
 .page-design {
@@ -406,7 +408,7 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-bottom: 1em;
+    margin-bottom: 50px;
 }
 
 /* Footer*/
