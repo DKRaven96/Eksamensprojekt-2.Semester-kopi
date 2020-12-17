@@ -171,7 +171,6 @@ nav ul li a {
 h2 {
     font-size: 55px;
     text-align: center;
-    padding-bottom: 10px;
     padding-top: 10px;
     color: #09565A;
     font-family: 'Allura';
@@ -179,6 +178,16 @@ h2 {
 
 
 .tekst {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 50%;
+}
+
+#frivillig-tekst {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -202,6 +211,7 @@ h2 {
 
     width: 30%;
     margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -232,6 +242,7 @@ h2 {
 
     width: 50%;
     margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -246,7 +257,7 @@ h2 {
 }
 
 
-button {
+#værmedButton {
     background-color: #A81B06;
     color: white;
     text-decoration: none;
@@ -255,11 +266,10 @@ button {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    margin-top: 2em;
     margin-bottom: 2em;
 }
 
-button:hover {
+#værmedButton:hover {
     opacity: 0.8;
 }
 
@@ -354,18 +364,19 @@ button:hover {
 
 }
 
-#beskrivDig{
+#beskrivDig {
     height: 100px;
     width: 100%;
-    box-sizing: border-box; /*box-sizing gør at browseren uderegner størelsen af elementet inklusiv padding og border*/
-     border-color: #09565A;
+    box-sizing: border-box;
+    /*box-sizing gør at browseren uderegner størelsen af elementet inklusiv padding og border*/
+    border-color: #09565A;
     font-family: 'Helvetica';
 }
 
 .form-container label {
     margin-top: 10px;
     margin-bottom: 5px;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 #popUpContent p {
@@ -384,7 +395,9 @@ button:hover {
 #tilmeldButton {
     padding: 5px;
     width: 100px;
-    margin: 0 auto; /*ingen margin i top og bund, autom margin til venstre og højre den gør at den placer sig i midten*/
+    margin: 0 auto;
+    font-size: 20px;
+    /*ingen margin i top og bund, autom margin til venstre og højre den gør at den placer sig i midten*/
     margin-top: 20px;
 
 
