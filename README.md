@@ -25,4 +25,4 @@ var map = new mapboxgl.Map({
 });
  ~~~
 
-Eksemplet viser opsætningen på mapbox i Javascript-filen, der på hjemmesiden viser lokationen på Café Parasollen.
+Eksemplet viser opsætningen på API'en mapbox, der på hjemmesiden fremviser lokationen på Café Parasollen.
