@@ -1,7 +1,8 @@
 # Eksamensprojekt-2.Semester
-Her har vi kodet en digital løsning til Café Parasollen.
 
 ![logo.png](images/logo.png)
+
+Her har vi kodet en digital løsning til Café Parasollen.
 
 Denne repository indeholder:
 * HTML:5 til forside og undersider
