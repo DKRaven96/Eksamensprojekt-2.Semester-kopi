@@ -10,7 +10,7 @@ body {
 }
 
 #header1 {
-    background-image: url(/images/omoscolour.png);
+    background-image: url(/images/omoscolourmindre.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -21,7 +21,7 @@ body {
 }
 
 #header2 {
-    background-image: url(../images/frivilligecolor.JPG);
+    background-image: url(../images/frivilligecolormindre.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -32,7 +32,7 @@ body {
 }
 
 #header3 {
-    background-image: url(../images/partnerskabcolor.jpg);
+    background-image: url(../images/partnerskabcolormindre.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;

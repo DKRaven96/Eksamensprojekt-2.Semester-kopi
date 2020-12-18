@@ -21,3 +21,7 @@ var map = new mapboxgl.Map({
     center: [10.165552, 56.128976], // starting position [lng, lat]
     zoom: 15 // starting zoom
 });
+
+var marker = new mapboxgl.Marker()
+.setLngLat([10.165552, 56.128976])
+.addTo(map);

@@ -10,7 +10,7 @@ body {
 }
 
 #header4 {
-    background-image: url(/images/aktivitetcolorimg.png);
+    background-image: url(/images/aktivitetcolormindre.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -383,7 +383,7 @@ nav ul li a:hover {
 /*backgroundPicture stylesheet */
 
 #backgroundPicture3 {
-    background-image: url(/images/backgroundcover.png);
+    background-image: url(/images/backgroundcovercolormindre.jpg);
 
 }
 

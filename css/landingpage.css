@@ -15,7 +15,7 @@ h2 {
 }
 
 header {
-    background-image:url(/images/landingcolorfix.png);
+    background-image: url(../images/landingpagemindre.png); s
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -261,12 +261,12 @@ h2 {
 /**backgroundPicture stylesheet **/
 
 #backgroundPicture1 {
-    background-image: url(/images/parallax1color.png);
+    background-image: url(/images/parallax1colormindre.jpg);
 
 }
 
 #backgroundPicture2 {
-    background-image: url(/images/parallax2color.png);
+    background-image: url(/images/parallax2colormindre.jpg);
 
 }
 
