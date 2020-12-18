@@ -10,7 +10,7 @@ body {
 }
 
 #header4 {
-    background-image: url(/images/aktivitetcolormindre.jpg);
+    background-image: url(../images/aktivitetcolormindre.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -22,7 +22,7 @@ body {
 }
 
 #header6 {
-    background-image: url(../images/menucolor.png);
+    background-image: url(../images/menucolormindre.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
