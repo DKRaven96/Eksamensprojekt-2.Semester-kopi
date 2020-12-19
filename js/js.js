@@ -48,6 +48,7 @@ $audioIconVeyis.on('click', function () {
     }
 });
 
+// slideshow menu
 var slideIndex = 1;
 showSlides(slideIndex);
 
