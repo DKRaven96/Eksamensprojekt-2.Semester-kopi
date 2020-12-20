@@ -107,6 +107,8 @@ header {
 
 /* dropdown slut */
 
+/*Navbar*/
+
 nav {
     position: fixed;
     width: 100%;
@@ -158,7 +160,7 @@ nav.black {
 
 }
 
-/* Kontakt os starter her */
+/* Page design Kontakt os starter her */
 #headerkontakt1 {
     font-family: 'Allura';
     font-size: 55px;
@@ -209,7 +211,7 @@ body {
     height: 500px;
     margin-bottom: 100px;
 }
-
+/* Footer*/
 footer {
     display: flex;
     justify-content: space-between;

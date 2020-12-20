@@ -30,9 +30,9 @@ var $audioIconPhilip = $("#audioIconPhilip");
 var audioPhilip = $("#audioPhilip").get(0); /* get(0) henter den følgende funktion i JavaScript, frem for i JQuery */
 
 $audioIconPhilip.on('click', function () {
-    if (audioPhilip.paused) {
+    if (audioPhilip.paused) {     //Brug af if til at angive en blok, der skal udføres hvis en specificeret betingelse er sand
         audioPhilip.play();
-    } else {
+    } else {                      //Brug af else til at specificere en blok kode der skal udføres hvis den sammen betingelse er falsk
         audioPhilip.pause();
     }
 });

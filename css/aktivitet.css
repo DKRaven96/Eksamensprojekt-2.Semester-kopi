@@ -2,8 +2,8 @@
  * file: css/style.css
  **/
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0;/*Margin er den ydere afstand fra rammens kant til en anden ramme/element*/
+    padding: 0;/* padding er det indre afstand i en ramme*/
     font-family: sans-serif;
     background-image: url(/images/bagground50.jpg);
 
@@ -14,10 +14,10 @@ body {
     background-size: cover;
     background-position: center;
     height: 90vh;
-    display: flex;
+    display: flex; /* En setting for hvordan visningerne af et elemenet skal håndteres */
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; /*Top til bund*/
     margin-bottom: 5em;
 }
 
@@ -35,7 +35,7 @@ body {
 
 /* Drop down til om os */
 .dropdown {
-    position: relative;
+    position: relative;  /*Elementet placeres relativt i forhold til placering i koden.*/
     display: flex;
     height: 100%;
     padding: 32px;
@@ -45,16 +45,16 @@ body {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: absolute; /*Elemenetet placeres et fast sted i forhold til browservinduet.*/
     top: 100%;
     background-color: rgba(255, 255, 255, .7);
     width: 140px;
-    z-index: 1;
+    z-index: 1;  /*z-indeks property indtiller z-rækkefølgeen af et positioneret elemen og dets efterkommere elle flex-elementer.*/
 }
 
 .dropdown-content a {
-    text-decoration: none;
-    text-align: center;
+    text-decoration: none; /*Her bestemmer man om man skal have en streg under,igennem eller over teksten*/
+    text-align: center;/*Her bestemmere man om teksten skal ligge til høre,midten eller til venstre*/
     font-size: 18px;
     display: block;
     padding: 20px;
@@ -116,6 +116,8 @@ body {
 
 /* dropdown slut */
 
+/*Navbar*/
+
 nav {
     position: fixed;
     width: 100%;
@@ -161,7 +163,7 @@ nav ul li a:hover {
     margin: 18px 48px;
 }
 
-/* Aktiviteter */
+/* Page design Aktivitet start her */
 .heading {
     font-family: 'Allura';
     font-size: 55px;
@@ -201,7 +203,7 @@ nav ul li a:hover {
 .text-menu a:hover {
     opacity: 0.6;
 }
-
+/*Aktivitet*/
 #aktivitetImg {
     display: block;
     margin-left: auto;
@@ -228,6 +230,7 @@ nav ul li a:hover {
     margin-bottom: 100px;
    
 }
+/*Poloid img*/
 .page-design {
     width: 100%;
     /*  Vh = View Height. It's like % but instead of parent, it's a % of the window height.  */

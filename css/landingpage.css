@@ -109,6 +109,8 @@ header {
 
 /* dropdown slut */
 
+/* Navbar*/
+
 nav {
     position: fixed;
     width: 100%;
@@ -155,7 +157,7 @@ nav ul li a:hover {
 #h1landing {
     font-size: 48px;
     text-transform: uppercase; /*gør teskten til store bogstaver*/
-    letter-spacing: 2px;
+    letter-spacing: 2px; /*mellemrummet mellem bogstaver*/
     font-weight: bold;
     text-align: center;
     font-family: 'Dosis', sans-serif;
@@ -235,7 +237,7 @@ h2 {
     width: 15%;
     left: 25px;
     bottom: 10px;
-    cursor: pointer;
+    cursor: pointer; /* Cursor viser når musesmarkøren er over et element*/
 }
 
 .quotesContent {
@@ -270,7 +272,7 @@ h2 {
 
 }
 
-.fixed-background {
+.fixed-background {  /*holder baggrundsbilldet på plads*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
