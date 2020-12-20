@@ -3,8 +3,8 @@
  **/
 /* landingpage*/
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0; /*Margin er den ydere afstand fra rammens kant til en anden ramme/element*/
+    padding: 0;    /* padding er det indre afstand i en ramme*/
     font-family: 'Helvetica';
     background-image: url(/images/bagground50.jpg);
 }
@@ -15,18 +15,18 @@ h2 {
 }
 
 header {
-    background-image: url(../images/landingpagemindre.png); s
+    background-image: url(../images/landingpagemindre.png); 
     background-size: cover;
     background-position: center;
     height: 90vh;
-    display: flex;
+    display: flex;           /* En setting for hvordan visningerne af et elemenet skal håndteres */
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;   /*Top til bund*/
 }
 
 .dropdown {
-    position: relative;
+    position: relative; /*Elementet placeres relativt i forhold til placering i koden.*/
     display: flex;
     height: 100%;
     padding: 32px;
@@ -37,18 +37,18 @@ header {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: absolute; /*Elemenetet placeres et fast sted i forhold til browservinduet.*/
     top: 79.5%;
     background-color: rgba(255, 255, 255, .7);
     width: 140px;
-    z-index: 1;
+    z-index: 1;  /*z-indeks property indtiller z-rækkefølgeen af et positioneret elemen og dets efterkommere elle flex-elementer.*/
 }
 
 .dropdown-content a {
-    text-decoration: none;
-    text-align: center;
+    text-decoration: none; /*Her bestemmer man om man skal have en streg under,igennem eller over teksten*/
+    text-align: center; /*Her bestemmere man om teksten skal ligge til høre,midten eller til venstre*/
     font-size: 18px;
-    display: block;
+    display: block; /* Elementet vises som et block-element*/
     padding: 15px;
     color: black;
 }
@@ -122,7 +122,7 @@ nav ul {
     display: flex;
     align-items: center;
     height: 100%;
-    float: right;
+    float: right; /*Float er atl elementet flyder rundt mellem de andre elemtenter*/
     margin: 0;
     padding-right: 42px;
     font-family: 'Dosis', sans-serif;
@@ -154,7 +154,7 @@ nav ul li a:hover {
 
 #h1landing {
     font-size: 48px;
-    text-transform: uppercase;
+    text-transform: uppercase; /*gør teskten til store bogstaver*/
     letter-spacing: 2px;
     font-weight: bold;
     text-align: center;
