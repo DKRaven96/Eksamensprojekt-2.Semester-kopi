@@ -23,7 +23,9 @@ h2 {
     flex-direction: column;
     margin-bottom: 5em;
 }
-
+.xlistmobil{
+    display: none;
+}
 /* dropdown start */
 
 .dropdown {
@@ -463,4 +465,23 @@ footer {
 
 #footerTekst p {
     margin: 0;
+}
+/*Mediaquery til mobil*/
+@media only screen and (max-width: 600px) {
+
+    /* tilpas footer til mobil*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    
+    #footerTekst{
+        text-align: center;
+    }
+    
+    #footerLogo{
+        margin-top: 15px;
+    }
+
 }

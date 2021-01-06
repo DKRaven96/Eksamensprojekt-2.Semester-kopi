@@ -42,6 +42,9 @@ body {
     flex-direction: column;
 }
 
+.xlistmobil{
+    display: none;
+}
 main {
     padding: 5em;
 }
@@ -616,7 +619,23 @@ footer {
 #footerTekst p {
     margin: 0;
 }
-
-
-
 /* Om os slut */
+/*Mediaquery til mobil*/
+@media only screen and (max-width: 600px) {
+
+    /* tilpas footer til mobil*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    
+    #footerTekst{
+        text-align: center;
+    }
+    
+    #footerLogo{
+        margin-top: 15px;
+    }
+
+}

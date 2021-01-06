@@ -3,8 +3,10 @@
  **/
 /* landingpage*/
 body {
-    margin: 0; /*Margin er den ydere afstand fra rammens kant til en anden ramme/element*/
-    padding: 0;    /* padding er det indre afstand i en ramme*/
+    margin: 0;
+    /*Margin er den ydere afstand fra rammens kant til en anden ramme/element*/
+    padding: 0;
+    /* padding er det indre afstand i en ramme*/
     font-family: 'Helvetica';
     background-image: url(/images/bagground50.jpg);
 }
@@ -15,18 +17,28 @@ h2 {
 }
 
 header {
-    background-image: url(../images/Landing.jpg); 
+    background-image: url(../images/Landing.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
-    display: flex;           /* En setting for hvordan visningerne af et elemenet skal håndteres */
+    display: flex;
+    /* En setting for hvordan visningerne af et elemenet skal håndteres */
     justify-content: center;
     align-items: center;
-    flex-direction: column;   /*Top til bund*/
+    flex-direction: column;
+    /*Top til bund*/
+}
+
+/*Display none*/
+.xlistmobil,
+.logomobil,
+#kryds {
+    display: none;
 }
 
 .dropdown {
-    position: relative; /*Elementet placeres relativt i forhold til placering i koden.*/
+    position: relative;
+    /*Elementet placeres relativt i forhold til placering i koden.*/
     display: flex;
     height: 100%;
     padding: 32px;
@@ -37,18 +49,23 @@ header {
 
 .dropdown-content {
     display: none;
-    position: absolute; /*Elemenetet placeres et fast sted i forhold til browservinduet.*/
+    position: absolute;
+    /*Elemenetet placeres et fast sted i forhold til browservinduet.*/
     top: 79.5%;
     background-color: rgba(255, 255, 255, .7);
     width: 140px;
-    z-index: 1;  /*z-indeks property indtiller z-rækkefølgeen af et positioneret elemen og dets efterkommere elle flex-elementer.*/
+    z-index: 1;
+    /*z-indeks property indtiller z-rækkefølgeen af et positioneret elemen og dets efterkommere elle flex-elementer.*/
 }
 
 .dropdown-content a {
-    text-decoration: none; /*Her bestemmer man om man skal have en streg under,igennem eller over teksten*/
-    text-align: center; /*Her bestemmere man om teksten skal ligge til høre,midten eller til venstre*/
+    text-decoration: none;
+    /*Her bestemmer man om man skal have en streg under,igennem eller over teksten*/
+    text-align: center;
+    /*Her bestemmere man om teksten skal ligge til høre,midten eller til venstre*/
     font-size: 18px;
-    display: block; /* Elementet vises som et block-element*/
+    display: block;
+    /* Elementet vises som et block-element*/
     padding: 15px;
     color: black;
 }
@@ -124,7 +141,8 @@ nav ul {
     display: flex;
     align-items: center;
     height: 100%;
-    float: right; /*Float er atl elementet flyder rundt mellem de andre elemtenter*/
+    float: right;
+    /*Float er atl elementet flyder rundt mellem de andre elemtenter*/
     margin: 0;
     padding-right: 42px;
     font-family: 'Dosis', sans-serif;
@@ -156,8 +174,10 @@ nav ul li a:hover {
 
 #h1landing {
     font-size: 48px;
-    text-transform: uppercase; /*gør teskten til store bogstaver*/
-    letter-spacing: 2px; /*mellemrummet mellem bogstaver*/
+    text-transform: uppercase;
+    /*gør teskten til store bogstaver*/
+    letter-spacing: 2px;
+    /*mellemrummet mellem bogstaver*/
     font-weight: bold;
     text-align: center;
     font-family: 'Dosis', sans-serif;
@@ -237,7 +257,8 @@ h2 {
     width: 15%;
     left: 25px;
     bottom: 10px;
-    cursor: pointer; /* Cursor viser når musesmarkøren er over et element*/
+    cursor: pointer;
+    /* Cursor viser når musesmarkøren er over et element*/
 }
 
 .quotesContent {
@@ -272,7 +293,8 @@ h2 {
 
 }
 
-.fixed-background {  /*holder baggrundsbilldet på plads*/
+.fixed-background {
+    /*holder baggrundsbilldet på plads*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -467,3 +489,91 @@ footer {
 
 
 /*landing page slut*/
+
+/*Mediaquery til mobil*/
+@media only screen and (max-width: 600px) {
+
+    /*navlist*/
+    .nav-list {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /*Bruges til at skubbe elemente helt ud af skærmen*/
+        width: 100vw;
+        bottom: 0;
+        background-image: url(/images/bagground50.jpg);
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+
+    }
+
+    .nav-list.open {
+        left: 0;
+        /*Bruger til at kalde elementen frem på skærmen*/
+    }
+
+    nav ul li a {
+        font-size: 30px;
+    }
+
+    nav ul li.tekstmindre a {
+        font-size: 20px;
+    }
+
+    .dropdown,
+    .dropdown2 {
+        display: none;
+    }
+
+    .logomobil {
+        display: block;
+        width: 150px;
+        margin-bottom: 30px;
+
+    }
+
+    #kryds {
+        display: block;
+        width: 40px;
+        padding: 0;
+        position: absolute;
+        /*man hiver elementet ud af flowet så det flyder så man kan placer med top 0 og right 0*/
+        top: 15px;
+        right: 15px;
+        background-color: transparent;
+
+    }
+
+    #kryds img {
+        width: 100%;
+    }
+
+    .xlistmobil {
+        display: block;
+    }
+
+    /* tilpas youtube */
+    iframe {
+        height: calc(70vw*.66);
+        /*calc er en metode som derfor kaldes med(), vi bruger calc til at regne højden ud i forhold til bredden*/
+        width: 70vw;
+    }
+
+    /* tilpas footer til mobil*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    #footerTekst {
+        text-align: center;
+    }
+
+    #footerLogo {
+        margin-top: 15px;
+    }
+
+}
