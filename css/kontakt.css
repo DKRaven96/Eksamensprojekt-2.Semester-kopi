@@ -4,7 +4,6 @@
 /* landingpage*/
 /*Mediaquery til web */
 
-@media only screen and (min-width: 1200px) {
     body {
         margin: 0;
         padding: 0;
@@ -260,6 +259,8 @@
     #footerTekst p {
         margin: 0;
     }
-}
 
 /*Mediaquery til mobil*/
+@media only screen and (max-width: 600px) {
+
+}
