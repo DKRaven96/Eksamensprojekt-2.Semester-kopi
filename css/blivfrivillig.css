@@ -325,6 +325,7 @@ Button:hover {
 }
 
 #close {
+    display: none;
     background-image: url(/images/kryds.png);
     background-size: contain;
     height: 20px;

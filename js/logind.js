@@ -5,7 +5,7 @@ $(document).ready(function() {
     //When we enter the page we hide popUp
     popUp.hide();
 
-    //We fetch the button though jQuery and make a click event to show the payment pop-up when the button is clicked. 
+    //We fetch the button though jQuery and make a click event to show the væremed pop-up when the button is clicked. 
     $("#værmedButton").click(function() {
         popUp.show();
     })
