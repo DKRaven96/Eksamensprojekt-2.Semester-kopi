@@ -2,8 +2,10 @@
  * file: css/style.css
  **/
 body {
-    margin: 0;/*Margin er den ydere afstand fra rammens kant til en anden ramme/element*/
-    padding: 0;/* padding er det indre afstand i en ramme*/
+    margin: 0;
+    /*Margin er den ydere afstand fra rammens kant til en anden ramme/element*/
+    padding: 0;
+    /* padding er det indre afstand i en ramme*/
     font-family: sans-serif;
     background-image: url(/images/bagground50.jpg);
 
@@ -14,10 +16,12 @@ body {
     background-size: cover;
     background-position: center;
     height: 90vh;
-    display: flex; /* En setting for hvordan visningerne af et elemenet skal håndteres */
+    display: flex;
+    /* En setting for hvordan visningerne af et elemenet skal håndteres */
     justify-content: center;
     align-items: center;
-    flex-direction: column; /*Top til bund*/
+    flex-direction: column;
+    /*Top til bund*/
     margin-bottom: 5em;
 }
 
@@ -33,12 +37,14 @@ body {
     margin-bottom: 5em;
 }
 
-.xlistmobil{
+.xlistmobil {
     display: none;
 }
+
 /* Drop down til om os */
 .dropdown {
-    position: relative;  /*Elementet placeres relativt i forhold til placering i koden.*/
+    position: relative;
+    /*Elementet placeres relativt i forhold til placering i koden.*/
     display: flex;
     height: 100%;
     padding: 32px;
@@ -48,16 +54,20 @@ body {
 
 .dropdown-content {
     display: none;
-    position: absolute; /*Elemenetet placeres et fast sted i forhold til browservinduet.*/
+    position: absolute;
+    /*Elemenetet placeres et fast sted i forhold til browservinduet.*/
     top: 100%;
     background-color: rgba(255, 255, 255, .7);
     width: 140px;
-    z-index: 1;  /*z-indeks property indtiller z-rækkefølgeen af et positioneret elemen og dets efterkommere elle flex-elementer.*/
+    z-index: 1;
+    /*z-indeks property indtiller z-rækkefølgeen af et positioneret elemen og dets efterkommere elle flex-elementer.*/
 }
 
 .dropdown-content a {
-    text-decoration: none; /*Her bestemmer man om man skal have en streg under,igennem eller over teksten*/
-    text-align: center;/*Her bestemmere man om teksten skal ligge til høre,midten eller til venstre*/
+    text-decoration: none;
+    /*Her bestemmer man om man skal have en streg under,igennem eller over teksten*/
+    text-align: center;
+    /*Her bestemmere man om teksten skal ligge til høre,midten eller til venstre*/
     font-size: 18px;
     display: block;
     padding: 20px;
@@ -206,6 +216,7 @@ nav ul li a:hover {
 .text-menu a:hover {
     opacity: 0.6;
 }
+
 /*Aktivitet*/
 #aktivitetImg {
     display: block;
@@ -231,8 +242,9 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-   
+
 }
+
 /*Poloid img*/
 .page-design {
     width: 100%;
@@ -245,6 +257,7 @@ nav ul li a:hover {
     padding-bottom: 10px;
     justify-content: center;
 }
+
 /*backgroundPicture stylesheet */
 #aktivetetMad {
     background-image: url(/images/aktivitetmadcolor.png);
@@ -463,8 +476,49 @@ footer {
 #footerTekst p {
     margin: 0;
 }
+
 /*Mediaquery til mobil*/
 @media only screen and (max-width: 600px) {
+
+    #header4 {
+        height: 60vh;
+        margin-bottom: 0em;
+    }
+
+    .heading {
+        width: 100%;
+        font-size: 40px;
+        margin-top: 1.5em;
+        margin-bottom: 0em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .text {
+        width: 100%;
+        font-size: 18px;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #aktivitetImg {
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #googleKalender {
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    #solStrålenimg {
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
 
     /* tilpas footer til mobil*/
     footer {
@@ -472,12 +526,12 @@ footer {
         flex-direction: column;
         height: 400px;
     }
-    
-    #footerTekst{
+
+    #footerTekst {
         text-align: center;
     }
-    
-    #footerLogo{
+
+    #footerLogo {
         margin-top: 15px;
     }
 
