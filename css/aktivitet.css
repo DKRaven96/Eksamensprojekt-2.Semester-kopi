@@ -485,6 +485,11 @@ footer {
         margin-bottom: 0em;
     }
 
+    #header6 {
+        height: 60vh;
+        margin-bottom: 0em;
+    }
+
     .heading {
         width: 100%;
         font-size: 40px;
@@ -509,14 +514,34 @@ footer {
 
     #googleKalender {
         width: 100%;
-        padding-left: 2em;
-        padding-right: 2em;
     }
-    
+
     #solStrålenimg {
         width: 100%;
         padding-left: 2em;
         padding-right: 2em;
+    }
+
+    .text-menu {
+        width: 100%;
+        font-size: 18px;
+        padding-left: 2em;
+        padding-right: 2em;
+        text-align: center;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    .prev {
+        padding-left: 0.3em;
+    }
+    
+    .next {
+        padding-right: 1.5em;
     }
 
 
