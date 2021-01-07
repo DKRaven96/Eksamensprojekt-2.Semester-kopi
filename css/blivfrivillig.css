@@ -23,9 +23,11 @@ h2 {
     flex-direction: column;
     margin-bottom: 5em;
 }
-.xlistmobil{
+
+.xlistmobil {
     display: none;
 }
+
 /* dropdown start */
 
 .dropdown {
@@ -467,8 +469,59 @@ footer {
 #footerTekst p {
     margin: 0;
 }
+
 /*Mediaquery til mobil*/
 @media only screen and (max-width: 600px) {
+
+    #header5 {
+        height: 60vh;
+        margin-bottom: 0em;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 40px;
+        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+    }
+
+    .tekst {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #frivilligImg {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-poloroid {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 70%;
+    }
+
+    #frivillig-tekst {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #frivillig-header {
+        width: 100%;
+        font-size: 40px;
+        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+    }
+    
+    .flex-container {
+        flex-direction: column;
+    }
+    
+    .img-poloroid1 {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        width: 70%;
+    }
 
     /* tilpas footer til mobil*/
     footer {
@@ -476,12 +529,12 @@ footer {
         flex-direction: column;
         height: 400px;
     }
-    
-    #footerTekst{
+
+    #footerTekst {
         text-align: center;
     }
-    
-    #footerLogo{
+
+    #footerLogo {
         margin-top: 15px;
     }
 
