@@ -555,12 +555,45 @@ footer {
     }
 
     /*landingpage*/
-    
+
     .logo {
         height: 60px;
         float: left;
         margin: 18px 10px;
     }
+
+    #mødGæst {
+        width: 100%;
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 40px;
+        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+    }
+
+    .tekst {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #smørbrød {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ##frivilligPic{
+        margin-top: 100px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    /*Poloid*/
+    
 
     /* tilpas youtube */
     iframe {

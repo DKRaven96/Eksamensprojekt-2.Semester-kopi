@@ -26,9 +26,11 @@ header {
     align-items: center;
     flex-direction: column;
 }
-.xlistmobil{
+
+.xlistmobil {
     display: none;
 }
+
 .dropdown {
     position: relative;
     display: flex;
@@ -266,18 +268,39 @@ footer {
 /*Mediaquery til mobil*/
 @media only screen and (max-width: 600px) {
 
+
+    /*tilpas main i footer*/
+    #headerkontakt2 {
+        width: 100%;
+        font-size: 40px;
+        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+    }
+
+    .tekst {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    #headerkontakt1 {
+        width: 100%;
+        font-size: 40px;
+        margin-bottom: 0.5em;
+        margin-top: 1.5em;
+    }
+
     /* tilpas footer til mobil*/
     footer {
         display: flex;
         flex-direction: column;
         height: 400px;
     }
-    
-    #footerTekst{
+
+    #footerTekst {
         text-align: center;
     }
-    
-    #footerLogo{
+
+    #footerLogo {
         margin-top: 15px;
     }
 
