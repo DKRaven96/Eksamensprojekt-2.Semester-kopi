@@ -437,7 +437,7 @@ footer {
 
     #text-top {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #image1 {
@@ -446,12 +446,12 @@ footer {
 
     #image-text {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #rapport-text {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 1em;
     }
 
@@ -470,22 +470,22 @@ footer {
 
     .image-text {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .text {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 3.5em;
     }
 
     .ansat {
-        width: 80%;
+        width: 60%;
     }
 
     #partnerskab-text {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 3.5em;
     }
 
