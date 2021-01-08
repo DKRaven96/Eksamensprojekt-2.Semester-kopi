@@ -1,9 +1,10 @@
  // A $( document ).ready() block.
-$(document).ready(function () { // kører så snart DOM er klar
+ $(document).ready(function () { // kører så snart DOM er klar
 
-    console.log("jQuery 3.5.1 running. Alert level green.");
+     console.log("jQuery 3.5.1 running. Alert level green.");
+     $("#kryds").click(function () {
+         $('.nav-list').removeClass('open');
+         console.log("klik");
+     })
 
-});
-    $("#close").click(function() {
-        $('.nav-list').removeClass('open');
-    })
+ });
