@@ -332,9 +332,13 @@ h2 {
     padding: 25px;
 }
 
-#smørbrødleft {
+.smørbrødleft {
     flex: 50%;
     padding: 10px;
+}
+
+#smørbrødMobil{
+    display: none;
 }
 
 button {
@@ -358,7 +362,7 @@ button:hover {
     align-items: center;
 }
 
-#smørbrød {
+#smørbrødDesk{
     width: 80%;
     margin-top: 2em;
 
@@ -581,19 +585,27 @@ footer {
         font-size: 18px;
     }
 
-    #smørbrød {
+    /*Prislit*/
+    #prislist {
         display: flex;
         flex-direction: column;
     }
-
-    ##frivilligPic{
+    #smørbrødDesk{
+        display: none;
+    }
+    
+    /**/
+    #frivilligPic {
         margin-top: 100px;
         margin-bottom: 10px;
         width: 100%;
     }
-    
+
     /*Poloid*/
-    
+    #imgPoloroid {
+        display: flex;
+        flex-direction: column;
+    }
 
     /* tilpas youtube */
     iframe {
