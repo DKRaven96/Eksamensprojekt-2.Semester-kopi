@@ -6,5 +6,8 @@
          $('.nav-list').removeClass('open');
          console.log("klik");
      })
-
+$("#burgermenu").click(function () {
+         $('.nav-list').addClass('open');
+         console.log("klik");
+     })
  });

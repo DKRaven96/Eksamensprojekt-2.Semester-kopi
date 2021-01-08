@@ -32,7 +32,8 @@ header {
 /*Display none*/
 .xlistmobil,
 .logomobil,
-#kryds {
+#kryds,
+#burgermenu {
     display: none;
 }
 
@@ -337,7 +338,7 @@ h2 {
     padding: 10px;
 }
 
-#smørbrødMobil{
+#smørbrødMobil {
     display: none;
 }
 
@@ -362,7 +363,7 @@ button:hover {
     align-items: center;
 }
 
-#smørbrødDesk{
+#smørbrødDesk {
     width: 80%;
     margin-top: 2em;
 
@@ -558,6 +559,21 @@ footer {
         display: block;
     }
 
+    #burgermenu {
+        display: block;
+        width: 40px;
+        padding: 0;
+        position: absolute;
+        /*man hiver elementet ud af flowet så det flyder så man kan placer med top 0 og right 0*/
+        top: 30px;
+        right: 20px;
+        background-color: transparent;
+    }
+
+    #burgermenu img {
+        width: 100%;
+    }
+
     /*landingpage*/
 
     .logo {
@@ -589,11 +605,18 @@ footer {
     #prislist {
         display: flex;
         flex-direction: column;
+        padding: 10px;
     }
-    #smørbrødDesk{
+
+    #smørbrødDesk {
         display: none;
     }
-    
+    #smørbrødMobil{
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
     /**/
     #frivilligPic {
         margin-top: 100px;
@@ -605,6 +628,14 @@ footer {
     #imgPoloroid {
         display: flex;
         flex-direction: column;
+    }
+
+    /*fixbackground*/
+    .fixed-background {
+        width: 100vw; /*100vw er bredden på skærmet*/
+        min-height: 25vh;
+        box-sizing: border-box;/*Medregner padding man kan have liggende på højden*/
+        background-attachment: unset;/*Fjerner background-attachement fra fixed-baggrund*/
     }
 
     /* tilpas youtube */

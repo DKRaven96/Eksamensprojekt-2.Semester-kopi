@@ -480,6 +480,82 @@ footer {
 /*Mediaquery til mobil*/
 @media only screen and (max-width: 600px) {
 
+    /*navlist*/
+    .nav-list {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        /*Bruges til at skubbe elemente helt ud af skærmen*/
+        width: 100vw;
+        bottom: 0;
+        background-image: url(/images/bagground50.jpg);
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+
+    }
+
+    .nav-list.open {
+        left: 0;
+        /*Bruger til at kalde elementen frem på skærmen*/
+    }
+
+    nav ul li a {
+        font-size: 30px;
+    }
+
+    nav ul li.tekstmindre a {
+        font-size: 20px;
+    }
+
+    .dropdown,
+    .dropdown2 {
+        display: none;
+    }
+
+    .logomobil {
+        display: block;
+        width: 150px;
+        margin-bottom: 30px;
+
+    }
+
+    #kryds {
+        display: block;
+        width: 40px;
+        padding: 0;
+        position: absolute;
+        /*man hiver elementet ud af flowet så det flyder så man kan placer med top 0 og right 0*/
+        top: 15px;
+        right: 15px;
+        background-color: transparent;
+
+    }
+
+    #kryds img {
+        width: 100%;
+    }
+
+    .xlistmobil {
+        display: block;
+    }
+
+    #burgermenu {
+        display: block;
+        width: 40px;
+        padding: 0;
+        position: absolute;
+        /*man hiver elementet ud af flowet så det flyder så man kan placer med top 0 og right 0*/
+        top: 30px;
+        right: 20px;
+        background-color: transparent;
+    }
+
+    #burgermenu img {
+        width: 100%;
+    }
+    /*Tilpas aktivitet*/ 
     #header4 {
         height: 60vh;
         margin-bottom: 0em;
