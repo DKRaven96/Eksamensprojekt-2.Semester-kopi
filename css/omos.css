@@ -42,9 +42,14 @@ body {
     flex-direction: column;
 }
 
-.xlistmobil {
+/*Display none*/
+.xlistmobil,
+.logomobil,
+#kryds,
+#burgermenu {
     display: none;
 }
+
 
 main {
     padding: 5em;
@@ -412,7 +417,8 @@ footer {
 /* Om os slut */
 /*Mediaquery til mobil*/
 @media only screen and (max-width: 600px) {
- /*navlist*/
+
+    /*navlist*/
     .nav-list {
         position: fixed;
         top: 0;
@@ -487,6 +493,7 @@ footer {
     #burgermenu img {
         width: 100%;
     }
+
     /*tilpass omos*/
     main {
         padding: 2em;

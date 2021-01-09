@@ -24,7 +24,11 @@ h2 {
     margin-bottom: 5em;
 }
 
-.xlistmobil {
+/*Display none*/
+.xlistmobil,
+.logomobil,
+#kryds,
+#burgermenu {
     display: none;
 }
 
@@ -473,7 +477,7 @@ footer {
 /*Mediaquery til mobil*/
 @media only screen and (max-width: 600px) {
 
-   /*navlist*/
+    /*navlist*/
     .nav-list {
         position: fixed;
         top: 0;
@@ -548,6 +552,7 @@ footer {
     #burgermenu img {
         width: 100%;
     }
+
     /*tilpass blivfrivillig*/
     #header5 {
         height: 60vh;
@@ -588,11 +593,11 @@ footer {
         margin-bottom: 0.5em;
         margin-top: 1.5em;
     }
-    
+
     .flex-container {
         flex-direction: column;
     }
-    
+
     .img-poloroid1 {
         margin-top: 100px;
         margin-bottom: 10px;

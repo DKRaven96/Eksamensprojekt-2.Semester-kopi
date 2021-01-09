@@ -37,7 +37,11 @@ body {
     margin-bottom: 5em;
 }
 
-.xlistmobil {
+/*Display none*/
+.xlistmobil,
+.logomobil,
+#kryds,
+#burgermenu {
     display: none;
 }
 
@@ -555,7 +559,8 @@ footer {
     #burgermenu img {
         width: 100%;
     }
-    /*Tilpas aktivitet*/ 
+
+    /*Tilpas aktivitet*/
     #header4 {
         height: 60vh;
         margin-bottom: 0em;
@@ -611,11 +616,11 @@ footer {
         padding-left: 2em;
         padding-right: 2em;
     }
-    
+
     .prev {
         padding-left: 0.3em;
     }
-    
+
     .next {
         padding-right: 1.5em;
     }

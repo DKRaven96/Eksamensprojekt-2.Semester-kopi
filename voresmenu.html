@@ -18,11 +18,17 @@
 
 <body>
     <header id="header6">
-        <nav>
+         <nav>
             <a href="index.html"><img class="logo" src="images/logo.png" alt="logo, cafe parasollen"></a>
-
-            <ul>
+            <button id="burgermenu"><img src="/images/burgernav.png" alt="burgermenu, åbennav"></button>
+            
+            <ul class="nav-list">
+                <button id="kryds" a href="index.html"><img src="/images/kryds.png" alt="kryds, luk"></button>
+                <a href="index.html"><img class="logomobil" src="images/logo.png" alt="logo, cafe parasollen"></a>
                 <li><a href="index.html">Forside</a></li>
+                <li class="xlistmobil"><a href="omos.html">Om Café Parasollen</a></li>
+                <li class="xlistmobil tekstmindre"><a href="voresteam.html">Vores team</a></li>
+                <li class="xlistmobil tekstmindre"><a href="partnerskab.html">Partnerskab</a></li>
                 <div class="dropdown">
                     <a href="omos.html">Om Café Parasollen</a>
                     <div class="dropdown-content">
@@ -30,14 +36,14 @@
                         <a href="partnerskab.html">Partnerskab</a>
                     </div>
                 </div>
-
+                <li class="xlistmobil"><a href="aktiviteter.html">Aktiviteter</a></li>
+                <li class="xlistmobil tekstmindre"><a href="voresmenu.html">Vores menu</a></li>
                 <div class="dropdown2">
                     <li><a href="aktiviteter.html">Aktiviteter</a></li>
                     <div class="dropdown-content2">
-                        <a class="current" href="voresmenu.html">Vores menu</a>
+                        <a href="voresmenu.html">Vores menu</a>
                     </div>
                 </div>
-
                 <li><a href="blivfrivillig.html">Bliv Frivillig</a></li>
                 <li><a href="kontakt.html">Kontakt os</a></li>
             </ul>
@@ -116,6 +122,7 @@
 
     <!-- load JavaScript -->
     <script src="js/js.js"></script>
+      <script type="text/javascript" src="js/navkryds.js"></script>
 
 </body>
 
