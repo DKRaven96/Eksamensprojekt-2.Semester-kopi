@@ -525,6 +525,12 @@ footer {
 
     }
 
+    .logo {
+        height: 60px;
+        float: left;
+        margin: 18px 10px;
+    }
+
     #kryds {
         display: block;
         width: 40px;

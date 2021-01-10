@@ -494,6 +494,12 @@ footer {
         width: 100%;
     }
 
+    .logo {
+        height: 60px;
+        float: left;
+        margin: 18px 10px;
+    }
+
     /*tilpass omos*/
     main {
         padding: 2em;

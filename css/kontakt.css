@@ -271,8 +271,12 @@ footer {
 
 /*Mediaquery til mobil*/
 @media only screen and (max-width: 600px) {
+    header {
+        height: 60vh;
+        margin-bottom: 0em;
+    }
 
- /*navlist*/
+    /*navlist*/
     .nav-list {
         position: fixed;
         top: 0;
@@ -347,9 +351,14 @@ footer {
     #burgermenu img {
         width: 100%;
     }
-   
-    
-    
+
+    .logo {
+        height: 60px;
+        float: left;
+        margin: 18px 10px;
+    }
+
+
     /*tilpas main i footer*/
     #headerkontakt2 {
         width: 100%;
@@ -362,7 +371,7 @@ footer {
         width: 100%;
         font-size: 18px;
     }
-    
+
     #headerkontakt1 {
         width: 100%;
         font-size: 40px;

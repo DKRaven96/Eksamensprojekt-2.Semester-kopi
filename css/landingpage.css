@@ -497,6 +497,10 @@ footer {
 
 /*Mediaquery til mobil*/
 @media only screen and (max-width: 600px) {
+    header {
+        height: 60vh;
+        margin-bottom: 0em;
+    }
 
     /*navlist*/
     .nav-list {
@@ -611,13 +615,14 @@ footer {
     #smørbrødDesk {
         display: none;
     }
-    #smørbrødMobil{
+
+    #smørbrødMobil {
         display: block;
         margin-bottom: 10px;
         width: 100%;
     }
 
-    /**/
+    /*Poloid*/
     #frivilligPic {
         margin-top: 100px;
         margin-bottom: 10px;
@@ -632,10 +637,13 @@ footer {
 
     /*fixbackground*/
     .fixed-background {
-        width: 100vw; /*100vw er bredden på skærmet*/
+        width: 100vw;
+        /*100vw er bredden på skærmet*/
         min-height: 25vh;
-        box-sizing: border-box;/*Medregner padding man kan have liggende på højden*/
-        background-attachment: unset;/*Fjerner background-attachement fra fixed-baggrund*/
+        box-sizing: border-box;
+        /*Medregner padding man kan have liggende på højden*/
+        background-attachment: unset;
+        /*Fjerner background-attachement fra fixed-baggrund*/
     }
 
     /* tilpas youtube */
