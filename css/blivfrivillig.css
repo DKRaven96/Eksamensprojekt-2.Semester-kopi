@@ -610,6 +610,16 @@ footer {
         width: 70%;
     }
 
+    .fixed-background {
+        width: 100vw;
+        /*100vw er bredden på skærmet*/
+        min-height: 25vh;
+        box-sizing: border-box;
+        /*Medregner padding man kan have liggende på højden*/
+        background-attachment: unset;
+        /*Fjerner background-attachement fra fixed-baggrund*/
+    }
+
     /* tilpas footer til mobil*/
     footer {
         display: flex;
