@@ -605,6 +605,10 @@ footer {
         font-size: 18px;
     }
 
+    .page-design {
+      padding-top: 0;
+    }
+
     /*Prislit*/
     #prislist {
         display: flex;
