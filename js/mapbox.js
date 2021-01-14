@@ -16,7 +16,7 @@ $(document).ready(function () { // kører så snart DOM er klar
 
 });
 
-/** mapbox**/
+// mapbox vi har lavet mapbox som vi har lært det fra timerne, vi har stylet et kort, puttet zoom på og posistion/
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubnltYWUiLCJhIjoiY2tmcWtlbGNtMGJ0NTJ3bzB2ODM2NWl3biJ9.OoNBfHTXEtINPw6pee5DVg';
 var map = new mapboxgl.Map({
