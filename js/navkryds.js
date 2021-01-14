@@ -3,7 +3,7 @@
 
      console.log("jQuery 3.5.1 running. Alert level green.");
      $("#kryds").click(function () {   // Denne fortæller browseren at hente/udføre et script når et element klikkes med musen.
-         $('.nav-list').removeClass('open');
+         $('.nav-list').removeClass('open'); 
          console.log("klik");
      })
 $("#burgermenu").click(function () {
