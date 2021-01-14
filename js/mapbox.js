@@ -3,6 +3,10 @@
  * purpose: introdction to jQuery
  */
 
+/* Library = 3. parts kode
+Herunder: parallax, JQuery, Openweathermap og Mapbox
+Henter information fra en kilde udefra */
+
 console.log('file: js/js.js loaded');
 
 // A $( document ).ready() block.

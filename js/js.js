@@ -3,6 +3,8 @@
  * purpose: introdction to jQuery
  */
 
+/** JS er vigtig for UX da den gør brugeren mere engageret samt opfordre til interaktion**/
+
 console.log('file: js/js.js loaded');
 
 // A $( document ).ready() block.
