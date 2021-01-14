@@ -3,9 +3,13 @@
  * purpose: introdction to jQuery
  */
 
+<<<<<<< Updated upstream
 /** JS er vigtig for UX da den gør brugeren mere engageret samt opfordre til interaktion**/
 
 console.log('file: js/js.js loaded');
+=======
+console.log('file: js/js.js loaded'); //console.log er en funktion der bruges til at udskrive en hver form for variabler(img,audio osv), der er defineret før i den eller til bare at udskrive enhver meddelelse , der skal vises til brugeren.
+>>>>>>> Stashed changes
 
 // A $( document ).ready() block.
 $(document).ready(function () { // kører så snart DOM er klar
@@ -13,17 +17,10 @@ $(document).ready(function () { // kører så snart DOM er klar
     console.log("jQuery 3.5.1 running. Alert level green.");
 
 
-
+// nede stående funktion er taget fra Webdok, men bruges ikke til noget. 
 });
 
-$
-    (window).on("scroll", function () {
-        if ($(window).scrollTop()) {
-            $('nav').addClass('black');
-        } else {
-            $('nav').removeClass('black');
-        }
-    })
+
 
 /**
  * Audio controls (again, find method to do it in ONE function rather than 2)
