@@ -76,10 +76,10 @@ function showSlides(n) {
         slideIndex = slides.length // vis næste billede i rækken
     }
     for (i = 0; i < slides.length; i++) { // laver en endeløs loop gennem det fulde antal af billeder, start forfra når det er nået
-        slides[i].style.display = "none";
+        slides[i].style.display = "none"; // skjuler billederne by default
     }
     for (i = 0; i < dots.length; i++) { // laver en endeløs loop gennem det fulde antal af prikker, start forfra
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" active", ""); // der er også loop på dots
     }
     slides[slideIndex - 1].style.display = "block"; // skjuler andre billeder som ikke er billede 1
     dots[slideIndex - 1].className += " active"; // klikker man videre fra 1. billede bliver en ny dot aktiv
