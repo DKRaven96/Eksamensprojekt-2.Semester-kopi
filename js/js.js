@@ -67,7 +67,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
+    var slides = document.getElementsByClassName("mySlides"); //getelementbyclassname betyder du henter den class der hedder myslides
     var dots = document.getElementsByClassName("dot");
     if (n > slides.length) {
         slideIndex = 1 // vis første billede
